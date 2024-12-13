@@ -45,4 +45,6 @@ int main()
     cout << d << endl;
 
     //-----------------Boolean(Stores 1 byte)--------------
+    bool b = true;
+    cout << b << endl;
 };
