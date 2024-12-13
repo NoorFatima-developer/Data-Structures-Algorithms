@@ -21,7 +21,10 @@ int main()
     cout << 2 + 3 << endl;          //output = 5
     cout << 9;                      //output = 9
 
-    // Variable declaration:
+    // Variable declaration and initialization/definition:
+    // int a; //declaration
+    // int a = 11; // initialization/definition
+    // yehi  kam hum same line m b krskty hain:
     int a = 10;
     cout << "Value of a: " << a << endl;
 };
