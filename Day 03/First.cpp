@@ -43,4 +43,6 @@ int main()
     //-----------------Double(Stores 8 bytes)--------------
     double d = 10.5;
     cout << d << endl;
+
+    //-----------------Boolean(Stores 1 byte)--------------
 };
