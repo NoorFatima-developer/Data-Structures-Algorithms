@@ -45,6 +45,13 @@ int main()
     cout << d << endl;
 
     //-----------------Boolean(Stores 1 byte)--------------
-    bool b = true;
-    cout << b << endl;
+
+    bool a2 = true;     //output = 1
+    bool b3 = false;    //output = 0;
+    bool b4 = 0;        //output = false;
+    bool b5 = 1;        //output = true
+    cout << a2 << endl;
+    cout << b3 << endl;
+    cout << b4 << endl;
+    cout << b5 << endl;
 };
