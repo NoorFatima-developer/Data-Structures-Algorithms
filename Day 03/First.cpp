@@ -20,4 +20,8 @@ int main()
     // aghr mai without string likhogi tu operation perform krk output dyga...
     cout << 2 + 3 << endl;          //output = 5
     cout << 9;                      //output = 9
+
+    // Variable declaration:
+    int a = 10;
+    cout << "Value of a: " << a << endl;
 };
