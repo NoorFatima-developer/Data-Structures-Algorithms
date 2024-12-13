@@ -34,7 +34,7 @@ int main()
 
     //-----------------Char(Stores 1 byte)--------------
     char a1 = 'a'; //declaration and initialization/definition
-    cout << a;
+    cout << a << endl;
 
     //-----------------Float(Stores 4 bytes)--------------
     float f = 10.5;
