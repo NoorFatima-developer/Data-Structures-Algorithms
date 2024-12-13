@@ -39,4 +39,8 @@ int main()
     //-----------------Float(Stores 4 bytes)--------------
     float f = 10.5;
     cout << f << endl;
+
+    //-----------------Double(Stores 8 bytes)--------------
+    double d = 10.5;
+    cout << d << endl;
 };
