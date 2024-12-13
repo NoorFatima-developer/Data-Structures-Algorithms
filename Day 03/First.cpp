@@ -15,7 +15,6 @@ int main()
     cout << "Welcome to Noor" << endl;          // "<<" called insert operator...
     cout << "3 + 9\n";                              // output = 3 + 9
     
-
     // aghr mai without string likhogi tu operation perform krk output dyga...
     cout << 2 + 3 << endl;          //output = 5
     cout << 9 << endl;                      //output = 9
