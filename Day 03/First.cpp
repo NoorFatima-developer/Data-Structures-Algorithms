@@ -19,12 +19,21 @@ int main()
 
     // aghr mai without string likhogi tu operation perform krk output dyga...
     cout << 2 + 3 << endl;          //output = 5
-    cout << 9;                      //output = 9
+    cout << 9 << endl;                      //output = 9
 
+
+    // Data Types:
+    // ----------------Int(Stores 4 bytes)--------------
     // Variable declaration and initialization/definition:
     // int a; //declaration
     // int a = 11; // initialization/definition
     // yehi  kam hum same line m b krskty hain:
-    int a = 10;
+    int a = 10, c = 30;
     cout << "Value of a: " << a << endl;
+    cout << a + c << endl;
+
+    //-----------------Char(Stores 1 byte)--------------
+    char a1 = 'a'; //declaration and initialization/definition
+    cout << a;
+
 };
