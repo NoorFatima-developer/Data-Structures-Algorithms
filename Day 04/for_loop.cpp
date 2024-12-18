@@ -14,6 +14,7 @@ using namespace std;
 // Example 01:
 
 int main(){
+    // Ab i int type ka hai islye int likhna imp hai...
     for(int i = 0; i < 5; i++){
         cout << " Coder Army\n";
     }
