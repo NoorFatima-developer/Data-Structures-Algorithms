@@ -2,7 +2,7 @@
 using namespace std;
 
 
-// Example 01:
+// Example 01:(package is greater than 10)
 
 // int main() {
 //     int package;
@@ -17,7 +17,7 @@ using namespace std;
 //     }
 // }
 
-// Example 02:
+// Example 02:(a is greater than b)
 
 // int main(){
 //     int a, b;
@@ -36,17 +36,45 @@ using namespace std;
 //     }
 // }
 
-// Example 03:
+// Example 03:(Number is even or odd)------------------> Way 01...
+
+// int main(){
+//     int number;
+//     cout << "Enter your first Number: ";
+//     cin >> number;
+
+//     if(number%2 == 0){
+//         cout << number << " is an even number";
+//     }else{
+//         cout << number << " is an odd number";
+//     }
+// }
+
+// Example 03:(Number is even or odd)------------------> Way 02...
+
+// int main(){
+//     int number;
+//     cout << "Enter your first Number: ";
+//     cin >> number;
+
+//     if(number%2 == 1){
+//         cout << number << " is an odd number";
+//     }else{
+//         cout << number << " is an even number";
+//     }
+// }
+
+// Example 04:(If age is greater than 18 Then print Adult , else print Teenage...)
 
 int main(){
-    int number;
-    cout << "Enter your first Number: ";
-    cin >> number;
+    int age;
+    cout << "Enter your age: ";
+    cin >> age;
 
-    if(number%2 == 0){
-        cout << number << " is an even number";
-    }else{
-        cout << number << " is an odd number";
-    }
-
+    if(age > 18){
+        cout << "You are an Adult";
+    }else 
+    {
+        cout << "You are a Teenager";
+    }   
 }
