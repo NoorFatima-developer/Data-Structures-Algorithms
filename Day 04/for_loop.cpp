@@ -53,9 +53,12 @@ int main(){
     cout << "Enter the Number: ";
     cin >> n;
 
-    for(int num = 2; num <= n; num = num+1 ){
+    for(int num = 1; num <= n; num = num+1 ){
         if(num % 2 == 0){
             cout << num << " ";
+        }
+        else{
+            
         }
     }
 }
