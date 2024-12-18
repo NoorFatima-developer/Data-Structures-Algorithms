@@ -22,13 +22,21 @@ using namespace std;
 
 // Example 02:(Print square of numbers)
 
+// int main(){
+
+//     int n;
+//     cout << "Enter the Number: ";
+//     cin >> n;
+
+//     for(int i = 1; i < n; i = i+1 ){
+//         cout << i << " " << "^ 2 = " << i*i << endl;
+//     }
+// }
+
+// Example 03:(Print all Even Numbers)
+
 int main(){
-
-    int n;
-    cout << "Enter the Number: ";
-    cin >> n;
-
-    for(int i = 1; i < n; i = i+1 ){
-        cout << i << " " << "^ 2 = " << i*i << endl;
+    for(int n = 2; n <= 10; n = n+2){
+        cout << n << " ";
     }
 }
