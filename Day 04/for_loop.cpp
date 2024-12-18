@@ -13,9 +13,22 @@ using namespace std;
 
 // Example 01:
 
+// int main(){
+//     // Ab i int type ka hai islye int likhna imp hai...
+//     for(int i = 0; i < 5; i++){
+//         cout << " Coder Army\n";
+//     }
+// }
+
+// Example 02:(Print square of numbers)
+
 int main(){
-    // Ab i int type ka hai islye int likhna imp hai...
-    for(int i = 0; i < 5; i++){
-        cout << " Coder Army\n";
+
+    int n;
+    cout << "Enter the Number: ";
+    cin >> n;
+
+    for(int i = 1; i < n; i = i+1 ){
+        cout << i << " " << "^ 2 = " << i*i << endl;
     }
 }
