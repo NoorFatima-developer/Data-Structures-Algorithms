@@ -58,7 +58,7 @@ int main(){
             cout << num << " ";
         }
         else{
-            
+            // do nothing
         }
     }
 }
