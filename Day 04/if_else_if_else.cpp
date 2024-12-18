@@ -20,7 +20,7 @@ using namespace std;
 //     }
 // }
 
-// // Example 02:(Number is vowel or consonant)
+//  Example 02:(Number is vowel or consonant)
 
 int main(){
   char c = 'a';
