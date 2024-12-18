@@ -36,6 +36,11 @@ using namespace std;
 // Example 03:(Print all Even Numbers)
 
 int main(){
+
+    int n;
+    cout << "Enter Even Numbers: ";
+    cin >> n;
+
     for(int n = 2; n <= 10; n = n+2){
         cout << n << " ";
     }
