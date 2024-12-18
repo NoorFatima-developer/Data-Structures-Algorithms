@@ -33,15 +33,29 @@ using namespace std;
 //     }
 // }
 
-// Example 03:(Print all Even Numbers)
+// Example 03:(Print all Even Numbers)--->Way 01:
+
+// int main(){
+
+//     int n;
+//     cout << "Enter the Number: ";
+//     cin >> n;
+
+//     for(int num = 2; num <= n; num = num+2 ){
+//         cout << num << " ";
+//     }
+// }
+
+//Example 02:(Print all Even Numbers)--->Way 02:
 
 int main(){
-
     int n;
-    cout << "Enter Even Numbers: ";
+    cout << "Enter the Number: ";
     cin >> n;
 
-    for(int n = 2; n <= 10; n = n+2){
-        cout << n << " ";
+    for(int num = 2; num <= n; num = num+1 ){
+        if(num % 2 == 0){
+            cout << num << " ";
+        }
     }
 }
