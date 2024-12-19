@@ -3,22 +3,22 @@ using namespace std;
 
 
 // Example 01:(Number is positive or negative or 0)
-// int main(){
-//     int num;
-//     cout << "Enter a Number: " << endl;
-//     cin >> num;
+int main(){
+    int num;
+    cout << "Enter a Number: " << endl;
+    cin >> num;
 
-//     if(num == 0){
-//         cout << num << " is 0" << endl;
-//     }
-//     else if(num > 0){
-//         cout << num << " is Positive" << endl;
-//     }
-//     else
-//     {
-//         cout << num << " is Negative" << endl;
-//     }
-// }
+    if(num == 0){
+        cout << num << " is 0" << endl;
+    }
+    else if(num > 0){
+        cout << num << " is Positive" << endl;
+    }
+    else
+    {
+        cout << num << " is Negative" << endl;
+    }
+}
 
 //  Example 02:(Number is vowel or consonant)
 
