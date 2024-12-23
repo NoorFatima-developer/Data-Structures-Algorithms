@@ -1,4 +1,5 @@
 #include <iostream>
+// using namespace boost::multiprecision;
 using namespace std;
 
 
@@ -102,7 +103,7 @@ using namespace std;
 //     cout << "Result: " << num << endl;
 // }
 
-// Example 07:(Print Sum of Natural Numbers....)Way 01...
+// Example 07:(Print Sum of n Natural Numbers....)Way 01...
 
 // int main(){
 //     int i, n, sum=0;
@@ -116,4 +117,63 @@ using namespace std;
 //     cout << "Sum: " << sum << endl;
 // }
 
-// 
+
+// Example 07:(Print Sum of n Natural Numbers.....)Way 02...
+
+// int main(){
+//     int n, i, sum = 0;
+//     cout << "Enter the Number: ";
+//     cin >> n;
+
+//     // By using this formula, hum Sum of n natural numbers nikal skty hain...
+
+//     cout << "Sum: " << (n*(n+1)/2);
+// }
+
+// Example 08:(Print Factorial Number of n....)
+
+// int main(){
+//     int n, i;
+//     // int 4 bytes ka hota hai islye wo factorial 50 k result ko store ni kr paraha overflow hora data..long int b work ni kr rha or na hi long long kr paraha hai
+//     // isklye 1 library hai jo m install krogi jo br numbers k data klye hoti hai... 
+//     int factorial;
+//     // long int factorial
+//     //long long factorial = 1;
+
+//     cout << "Enter the Number: ";
+//     cin >> n;
+    
+//     for(i = 1; i<=n; i++){
+//         factorial = factorial * i;
+//     }
+
+//     cout << "Factorial: " << factorial << endl;
+// }
+
+// Example 09:(Print Prime Numbers....)
+
+int main(){
+    int n, i;
+    cout << "Enter the Number: ";
+    cin >> n;
+
+
+    if(n < 2){
+        cout << n << " is not a prime number" << endl;
+        return 0;
+    }
+    else{
+          for(i = 2; i<=n; i++){
+            if(n % 2 == 0){
+                cout << n << " is not a prime number" << endl;
+                return 0;
+            }
+        }
+
+        cout << n << " is a prime number" << endl;
+        return 0;
+    }
+    
+    return 0;
+    
+    }
