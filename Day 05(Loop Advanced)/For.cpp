@@ -85,10 +85,19 @@ using namespace std;
 // Example 06:(Print power of any number result...)
 
 int main(){
-    int n, pow;
+    int i, n, pow, num;
     cout << "Enter the Number: ";
     cin >> n;
 
     cout << "Enter the Power: ";
     cin >> pow;
+
+    // store n in variable...
+
+    num = n;
+    for(i=1; i<pow; i++){
+       num = num * n;
+    }
+
+    cout << "Result: " << num << endl;
 }
