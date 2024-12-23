@@ -152,28 +152,60 @@ using namespace std;
 
 // Example 09:(Print Prime Numbers....)
 
+// int main(){
+//     int n, i;
+//     cout << "Enter the Number: ";
+//     cin >> n;
+
+
+//     if(n < 2){
+//         cout << n << " is not a prime number" << endl;
+//         return 0;
+//     }
+//     else{
+//           for(i = 2; i<=n; i++){
+//             if(n % 2 == 0){
+//                 cout << n << " is not a prime number" << endl;
+//                 return 0;
+//             }
+//         }
+
+//         cout << n << " is a prime number" << endl;
+//         return 0;
+//     }
+    
+//     return 0;
+    
+//     }
+
+
+//Example 10:(Print Fibonacci Numbers)
+
 int main(){
-    int n, i;
+    int n, i, last = 0, previous = 1, current;
     cout << "Enter the Number: ";
     cin >> n;
 
+    cout << "Fibonacci series: ";
 
-    if(n < 2){
-        cout << n << " is not a prime number" << endl;
-        return 0;
-    }
-    else{
-          for(i = 2; i<=n; i++){
-            if(n % 2 == 0){
-                cout << n << " is not a prime number" << endl;
-                return 0;
-            }
+    // 0 sy start hoty hain islye i<n likhygy ku k 0 include krk 12 numbers hi bn jty hain...
+    for(i = 0; i < n; i++){
+
+//   Mai chahti o k fibonnaci series m jo numbers print hon wo 0 sy start hon pehly 2 numbers 0 or 1 hony chhaye islye meny iss line sy onko handle kea hai
+        if(i <= 1){
+            current = i;
         }
 
-        cout << n << " is a prime number" << endl;
-        return 0;
-    }
+    else {
+        current = last + previous;
+        last = previous;
+        previous = current;
     
+    }
+    cout << current << " ";
+    }
+
+    cout << endl;
     return 0;
-    
-    }
+
+}
