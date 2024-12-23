@@ -42,10 +42,22 @@ using namespace std;
 
 // Example 05:(Print Table of 6 by using loop)
 
+// int main(){
+//     int n;
+//     n = 6;
+//     for(int i = 1; i<=10; i++){
+//         cout <<  n << " * "  << i <<  " = "  << n * i << endl;
+//     }
+// }
+
+// Example 06:(Print Any Number Table)
+
 int main(){
-    int n;
-    n = 6;
-    for(int i = 1; i<=10; i++){
+    int n, i;
+    cout << "Enter the Number: ";
+    cin >> n;
+
+    for(i = 1; i<=10; i++){
         cout <<  n << " * "  << i <<  " = "  << n * i << endl;
     }
 }
