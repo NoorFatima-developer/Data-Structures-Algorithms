@@ -84,20 +84,32 @@ using namespace std;
 
 // Example 06:(Print power of any number result...)
 
+// int main(){
+//     int i, n, pow, num;
+//     cout << "Enter the Number: ";
+//     cin >> n;
+
+//     cout << "Enter the Power: ";
+//     cin >> pow;
+
+//     // store n in variable...
+
+//     num = n;
+//     for(i=1; i<pow; i++){
+//        num = num * n;
+//     }
+
+//     cout << "Result: " << num << endl;
+// }
+
+// Example 07:(Print Sum of Natural Numbers....)
+
 int main(){
-    int i, n, pow, num;
-    cout << "Enter the Number: ";
-    cin >> n;
+    int i, n, sum=0;
 
-    cout << "Enter the Power: ";
-    cin >> pow;
-
-    // store n in variable...
-
-    num = n;
-    for(i=1; i<pow; i++){
-       num = num * n;
+    for(i = 1; i<=6; i++){
+        sum = sum + i;
     }
 
-    cout << "Result: " << num << endl;
+    cout << "Sum: " << sum << endl;
 }
