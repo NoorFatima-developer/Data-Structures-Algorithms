@@ -95,21 +95,25 @@ using namespace std;
 //     // store n in variable...
 
 //     num = n;
-//     for(i=1; i<pow; i++){
+//     for(i=1; i<pow; i++){            //i - 1 ka mtlb h k jo b num user enter kry wahan sy start ho...
 //        num = num * n;
 //     }
 
 //     cout << "Result: " << num << endl;
 // }
 
-// Example 07:(Print Sum of Natural Numbers....)
+// Example 07:(Print Sum of Natural Numbers....)Way 01...
 
-int main(){
-    int i, n, sum=0;
+// int main(){
+//     int i, n, sum=0;
+//     cout << "Enter the Number: ";
+//     cin >> n;
 
-    for(i = 1; i<=6; i++){
-        sum = sum + i;
-    }
+//     for(i = 1; i<=n; i++){
+//         sum = sum + i;
+//     }
 
-    cout << "Sum: " << sum << endl;
-}
+//     cout << "Sum: " << sum << endl;
+// }
+
+// 
