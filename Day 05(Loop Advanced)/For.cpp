@@ -40,6 +40,16 @@ using namespace std;
 //     }
 // }
 
+// Example 05:(Print Table of 6 by using loop but start from 6 and ends at 60)
+
+// int main(){
+//     int i;
+//     for(i=6; i<=60; i=i+6){
+//         cout << i << " ";
+//     }
+// }
+
+
 // Example 05:(Print Table of 6 by using loop)
 
 // int main(){
@@ -52,12 +62,12 @@ using namespace std;
 
 // Example 06:(Print Any Number Table)
 
-int main(){
-    int n, i;
-    cout << "Enter the Number: ";
-    cin >> n;
+// int main(){
+//     int n, i;
+//     cout << "Enter the Number: ";
+//     cin >> n;
 
-    for(i = 1; i<=10; i++){
-        cout <<  n << " * "  << i <<  " = "  << n * i << endl;
-    }
-}
+//     for(i = 1; i<=10; i++){
+//         cout <<  n << " * "  << i <<  " = "  << n * i << endl;
+//     }
+// }
