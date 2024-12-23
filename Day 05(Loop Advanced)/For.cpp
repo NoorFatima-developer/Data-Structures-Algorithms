@@ -80,3 +80,15 @@ using namespace std;
 //         cout <<  n << " * "  << i <<  " = "  << n * i << endl;
 //     }
 // }
+
+
+// Example 06:(Print power of any number result...)
+
+int main(){
+    int n, pow;
+    cout << "Enter the Number: ";
+    cin >> n;
+
+    cout << "Enter the Power: ";
+    cin >> pow;
+}
