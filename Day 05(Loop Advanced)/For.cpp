@@ -50,17 +50,26 @@ using namespace std;
 // }
 
 
-// Example 05:(Print Table of 6 by using loop)
+// Example 05:(Print Table of 6 by using loop with multiplication method...)
 
 // int main(){
 //     int n;
-//     n = 6;
+//     n = 8;
 //     for(int i = 1; i<=10; i++){
 //         cout <<  n << " * "  << i <<  " = "  << n * i << endl;
 //     }
 // }
 
-// Example 06:(Print Any Number Table)
+//Example 05:(Print Table of 6 by using loop but result will be in n)
+
+// int main(){
+//     int n = 8;
+//     for(int i = n; i<=10*n; i=i+n){
+//         cout << i << " ";
+//     }
+// }
+
+// Example 05:(Print Any Number Table)
 
 // int main(){
 //     int n, i;
