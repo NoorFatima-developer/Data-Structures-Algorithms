@@ -84,12 +84,32 @@ using namespace std;
 // 5 4 3 2 1
 // 5 4 3 2 1
 
+// int main(){
+//     int row, col;
+
+//     for(row=1; row<=5; row++){
+//     for(col=5; col>=1; col--){
+//         cout << col << " ";
+//     }
+//     cout << endl;  // New line after each row
+// }
+// }
+
+// Q-06 Print
+
+// 1 4 9 16 25
+// 1 4 9 16 25
+// 1 4 9 16 25
+// 1 4 9 16 25
+// 1 4 9 16 25
+
+
 int main(){
     int row, col;
 
     for(row=1; row<=5; row++){
-    for(col=5; col>=1; col--){
-        cout << col << " ";
+    for(col=5; col<=1; col++){
+        cout << col * col << " ";
     }
     cout << endl;  // New line after each row
 }
