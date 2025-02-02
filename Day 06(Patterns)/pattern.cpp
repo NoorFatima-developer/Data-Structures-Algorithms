@@ -179,17 +179,38 @@ using namespace std;
 // a b c d e
 // a b c d e
 
-int main(){
-    int row;
-    for(row=1; row<=5; row++){
-        for(char col = 'a'; col<='e'; col++){
-            cout << col << " ";
-    }
-    cout << endl;  // New line after each row
-}
-}
+// int main(){
+//     int row;
+//     for(row=1; row<=5; row++){
+//         for(char col = 'a'; col<='e'; col++){
+//             cout << col << " ";
+//     }
+//     cout << endl;  // New line after each row
+// }
+// }
 
-// Q-10 Print:
+// Q-10 Print:--- 1 way:(with variable)
+
+// 1 2 3 4 5
+// 6 7 8 9 10
+// 11 12 13 14 15
+// 16 17 18 19 20
+// 21 22 23 24 25
+
+// int main(){
+//     int row, col;
+//     int count = 1;
+//     for(row=1; row<=5; row++){
+//         for(col=1; col<=5; col++){
+//             cout << count << " ";
+//             count++;
+//     }
+//     cout << endl;  // New line after each row
+// }
+// }
+
+
+// Q-10 Print:---2 way..(without variable)
 
 // 1 2 3 4 5
 // 6 7 8 9 10
@@ -199,19 +220,13 @@ int main(){
 
 int main(){
     int row, col;
-    int count = 1;
-    for(row=1; row<5; row++){
-        for(col=1; col<5; col++){
-            cout << count << " ";
+    for(row=1; row<=5; row++){
+        for(col=1; col<=5; col++){
+            cout << (row -1)*5 + col << " ";
     }
     cout << endl;  // New line after each row
-    count++;
 }
 }
-
-
-
-
 
 
 
