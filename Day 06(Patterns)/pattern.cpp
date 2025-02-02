@@ -141,8 +141,14 @@ int main(){
 // e e e e e 
 
 
+
+
+
+
+
 // Summary of Patterns:
 
+// Aghr 1 value ko sary patterns mai print krwana ho then mai oss value ko cout mai dedogi..
 // jismai same values hain osko print krwa do..
 // Aghr row mai same hai tu row wise print krwa do..
 // Aghr col mai same hai tu col wise print krwa do..
