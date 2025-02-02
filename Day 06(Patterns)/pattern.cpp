@@ -115,7 +115,7 @@ using namespace std;
 // }
 // }
 
-// 07 Print:
+// Q-07 Print:
 // 1 8 27 64 125
 // 1 8 27 64 125
 // 1 8 27 64 125
@@ -132,6 +132,13 @@ int main(){
     cout << endl;  // New line after each row
 }
 }
+
+// Q-08 Print:
+// a a a a a
+// b b b b b
+// c c c c c
+// d d d d d
+// e e e e e 
 
 
 // Summary of Patterns:
