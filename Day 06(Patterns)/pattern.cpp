@@ -132,3 +132,12 @@ int main(){
     cout << endl;  // New line after each row
 }
 }
+
+
+// Summary of Patterns:
+
+// jismai same values hain osko print krwa do..
+// Aghr row mai same hai tu row wise print krwa do..
+// Aghr col mai same hai tu col wise print krwa do..
+// Aghr reverse order mai values jarae hain tu loop ko b reverse krdo.. lkin dekh k row mai same hain tu rows mai or aghr col mai 
+// same hain tu cols mai...
