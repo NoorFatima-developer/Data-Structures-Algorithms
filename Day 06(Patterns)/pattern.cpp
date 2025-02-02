@@ -122,16 +122,16 @@ using namespace std;
 // 1 8 27 64 125
 // 1 8 27 64 125
 
-int main(){
-    int row, col;
+// int main(){
+//     int row, col;
 
-    for(row=1; row<=5; row++){
-    for(col=1; col<=5; col++){
-        cout << col*col*col << " ";
-    }
-    cout << endl;  // New line after each row
-}
-}
+//     for(row=1; row<=5; row++){
+//     for(col=1; col<=5; col++){
+//         cout << col*col*col << " ";
+//     }
+//     cout << endl;  // New line after each row
+// }
+// }
 
 // Q-08 Print:
 // a a a a a
@@ -140,7 +140,18 @@ int main(){
 // d d d d d
 // e e e e e 
 
+int main(){
+    int row, col;
+    int a = a;
+    int e = e;
 
+    for(row=1; row<=5; row++){
+    for(col=a; col<=e; col++){
+        cout << row << " ";
+    }
+    cout << endl;  // New line after each row
+}
+}
 
 
 
