@@ -75,3 +75,11 @@ int main(){
     cout << endl;  // New line after each row
 }
 }
+
+// Q-05 Print
+
+// 5 4 3 2 1
+// 5 4 3 2 1
+// 5 4 3 2 1
+// 5 4 3 2 1
+// 5 4 3 2 1
