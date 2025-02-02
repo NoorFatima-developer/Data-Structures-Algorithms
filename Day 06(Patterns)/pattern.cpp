@@ -104,12 +104,30 @@ using namespace std;
 // 1 4 9 16 25
 
 
+// int main(){
+//     int row, col;
+
+//     for(row=1; row<=5; row++){
+//     for(col=1; col<=5; col++){
+//         cout << col*col << " ";
+//     }
+//     cout << endl;  // New line after each row
+// }
+// }
+
+// 07 Print:
+// 1 8 27 64 125
+// 1 8 27 64 125
+// 1 8 27 64 125
+// 1 8 27 64 125
+// 1 8 27 64 125
+
 int main(){
     int row, col;
 
     for(row=1; row<=5; row++){
-    for(col=5; col<=1; col++){
-        cout << col * col << " ";
+    for(col=1; col<=5; col++){
+        cout << col*col*col << " ";
     }
     cout << endl;  // New line after each row
 }
