@@ -1,6 +1,12 @@
 #include <iostream>
 using namespace std;
 
+// Q-1 Print 
+// * * * * *
+// * * * * *
+// * * * * *
+// * * * * *
+
 // int main(){
 
 //     int row, col;
@@ -12,6 +18,13 @@ using namespace std;
 //         cout << endl;  // New line after each row
 //     }
 // }
+
+
+// Q-02 Print 
+// 10 10 10 10 10 
+// 10 10 10 10 10
+// 10 10 10 10 10
+// 10 10 10 10 10
 
 int main(){
 
