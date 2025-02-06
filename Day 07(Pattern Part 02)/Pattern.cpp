@@ -60,10 +60,21 @@ using namespace std;
 // 4 3 2 1
 // 5 4 3 2 1
 
+// int main(){
+//     for(int row = 1; row <= 5; row++){
+//         for(int col = row; col >=1; col--){
+//             cout << col << " ";
+//         }
+//         cout << endl;  // New line after each row
+//     }
+// }
+
+// Q-15
+
 int main(){
     for(int row = 1; row <= 5; row++){
-        for(int col = row; col >=1; col--){
-            cout << col << " ";
+        for(char name = 'a'; name <= 'e'; name++){
+            cout << name << " ";
         }
         cout << endl;  // New line after each row
     }
