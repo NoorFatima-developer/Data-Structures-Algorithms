@@ -75,13 +75,25 @@ using namespace std;
 // c c c
 // d d d d
 // e e e e e
+
+// int main(){
+//     for(int row = 1; row <= 5; row++){
+//         // row tk hi condition lgygi..
+//         char name = 'a' + (row - 1);
+//         for(int col = 1; col <= row; col++){
+//             cout << name << " ";
+//         }
+//         cout << endl;  // New line after each rowx        
+//     }
+// }
+
+// Q-16
+
 int main(){
     for(int row = 1; row <= 5; row++){
-        // row tk hi condition lgygi..
-        char name = 'a' + (row - 1);
-        for(int col = 1; col <= row; col++){
-            cout << name << " ";
+        for(int col = 5; col >=row; col--){
+            cout << "*" << " ";
         }
-        cout << endl;  // New line after each rowx        
+    cout << endl;  // New line after each row
     }
 }
