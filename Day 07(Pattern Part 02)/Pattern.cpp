@@ -1,3 +1,5 @@
+// Is trhan k tree patterns mai row tk length rkhni hai col ki...
+
 // Q-11 
 
 //  *
@@ -25,19 +27,26 @@ using namespace std;
 // 1 2 3 4
 // 1 2 3 4 5
 
-int main(){
-    for(int row = 1; row <=5; row++) {
-        for(int col = 1; col <=row; col++) {
-                cout << col << " " ;
-        }
-        cout << endl;  // New line after each row
-    }
-}
+// int main(){
+//     for(int row = 1; row <=5; row++) {
+//         for(int col = 1; col <=row; col++) {
+//             if(col <= row)
+//                 cout << col << " " ;
+//         }
+//         cout << endl;  // New line after each row
+//     }
+// }
 
+// Q-13
+// 1
+// 2 2
+// 3 3 3
+// 4 4 4 4
+// 5 5 5 5 5
 
 // int main(){
 //     for(int row = 1; row <= 5; row++){
-//         for(int col = 1; col <= col; col++ ){
+//         for(int col = 1; col <= row; col++ ){
 //             cout << row << " ";
 //         }
 //         cout << endl;  // New line after each row
