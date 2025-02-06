@@ -52,3 +52,15 @@ using namespace std;
 //         cout << endl;  // New line after each row
 //     }
 // }
+
+// Q-14
+
+
+int main(){
+    for(int row = 1; row <= 5; row++){
+        for(int col = row; col >=1; col--){
+            cout << col << " ";
+        }
+        cout << endl;  // New line after each row
+    }
+}
