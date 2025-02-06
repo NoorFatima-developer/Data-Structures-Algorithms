@@ -40,13 +40,15 @@ int main(){
     cout << "Enter a number: ";
     cin >> num;
     for(int row=1; row<=num; row++){
-        for(int col=1; col<=num; col++){
+        for(int col=1; col<=num-row; col++){
             // print star...
             cout<<"  ";
         }
         for(int col=1; col<=row; col++){
             // print numbers...
-            cout<< row ;
+            cout<< row << " ";
         }
+        cout << endl;
+
     }
 }
