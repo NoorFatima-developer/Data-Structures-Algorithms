@@ -8,6 +8,9 @@
 //           * * * *
 //         * * * * *
 // Formula:- (1 sy num - row)
+// and jahan pr char type o ga wahan use this as well:
+// char name = 'a' + (row - 1);
+
 
 
 #include <iostream>
@@ -96,7 +99,39 @@ using namespace std;
 //     }
 // }
 
-// Q-No 04:-
+// // Q-No 04:-(Way 01...)
+//       a
+//       b b
+//     c c c
+//   d d d d
+// e e e e e
+
+
+// int main(){
+//     // user sy input leny klye...
+//     int num;
+//     cout << "Enter a number: ";
+//     cin >> num;
+    
+//     for(int row=1; row<=num; row++){
+//         for(int col=1; col<=num-row; col++){
+//             cout << "  ";
+//         }
+//         char name = 'a' + (row - 1);
+//         for(int col=1; col<=row; col++){
+//             cout << name << " ";
+//         }
+//         cout << endl;
+//     }
+//     return 0;
+// }
+
+// // Q-No 04:-(Way 02...)
+//         a
+//       b b
+//     c c c
+//   d d d d
+// e e e e e
 
 int main(){
     // user sy input leny klye...
@@ -105,11 +140,10 @@ int main(){
     cin >> num;
     
     for(int row=1; row<=num; row++){
-        char name = 'a' + (row - 1);
-        for(int col=1; col<=row; col++){
-            cout << " ";
+        for(int col=1; col<=num-row; col++){
+            cout << "  ";
         }
-        for(int col=1; col<row; col++){
+        for(char name = 'a'; 'a' + (row - 1); name++){
             cout << name << " ";
         }
         cout << endl;
