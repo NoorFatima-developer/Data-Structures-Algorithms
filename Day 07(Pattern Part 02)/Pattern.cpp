@@ -159,9 +159,26 @@ using namespace std;
 // 1 2
 // 1
 
+// int main(){
+//     for(int row = 5; row >= 1; row--){
+//         for(int col=1; col <= row; col++){
+//             cout << col << " ";
+//         }
+//         cout << endl;  // New line after each row
+//     }
+// }
+
+
+// Q-18
+// 5 
+// 5 4
+// 5 4 3
+// 5 4 3 2
+// 5 4 3 2 1
+
 int main(){
-    for(int row = 5; row >= 1; row--){
-        for(int col=1; col <= row; col++){
+    for(int row = 1; row <= 5; row++){
+        for(int col = 5; col>=5-(row-1); col--){
             cout << col << " ";
         }
         cout << endl;  // New line after each row
