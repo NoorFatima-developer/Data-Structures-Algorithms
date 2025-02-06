@@ -87,11 +87,32 @@ using namespace std;
 //     }
 // }
 
-// Q-16
+// Q-16(Way 01..)
+// * * * * * 
+// * * * *
+// * * *
+// * *
+// *
+
+// int main(){
+//     for(int row = 1; row <= 5; row++){
+//         for(int col = 5; col >=row; col--){
+//             cout << "*" << " ";
+//         }
+//     cout << endl;  // New line after each row
+//     }
+// }
+
+// Q-16(Way 02..)
+// * * * * * 
+// * * * *
+// * * *
+// * *
+// *
 
 int main(){
     for(int row = 1; row <= 5; row++){
-        for(int col = 5; col >=row; col--){
+        for(int col = 1; col <= 5-(row - 1); col++){
             cout << "*" << " ";
         }
     cout << endl;  // New line after each row
