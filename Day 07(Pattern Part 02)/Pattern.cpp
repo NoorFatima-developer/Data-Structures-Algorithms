@@ -34,3 +34,13 @@ using namespace std;
 //         cout << endl;  // New line after each row
 //     }
 // }
+
+
+int main(){
+    for(int row = 1; row <= 5; row++){
+        for(int col = 1; col <= col; col++ ){
+            cout << row << " ";
+        }
+        cout << endl;  // New line after each row
+    }
+}
