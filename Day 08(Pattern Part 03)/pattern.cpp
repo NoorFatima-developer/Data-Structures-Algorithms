@@ -1,6 +1,15 @@
 // Inn patterns mai jahan space b print krni hain or num ya * b tu i will use
 // condition mai 1 sy num-row tk inner for loop mai condition lgy gi..;
 
+// Inn patterns klye:
+//                 *
+//               * *
+//             * * *
+//           * * * *
+//         * * * * *
+// Formula:- (1 sy <=num - row)
+
+
 #include <iostream>
 using namespace std;
 
@@ -63,20 +72,26 @@ using namespace std;
 
 // Q-03
 
-int main(){
-     // user sy input leny klye...
-    int num;
-    cout << "Enter a number: ";
-    cin >> num;
-    for(int row=1; row<=num; row++){
-        for(int col=1; col<=num-row; col++){
-            cout<< "  " ;
-        }
+//         1 
+//       1 2
+//     1 2 3
+//   1 2 3 4
+// 1 2 3 4 5
 
-         for(int col=1; col<=row; col++){
-             cout << col << " ";
-         }
-         cout << endl;
+// int main(){
+//      // user sy input leny klye...
+//     int num;
+//     cout << "Enter a number: ";
+//     cin >> num;
+//     for(int row=1; row<=num; row++){
+//         for(int col=1; col<=num-row; col++){
+//             cout<< "  " ;
+//         }
 
-    }
-}
+//          for(int col=1; col<=row; col++){
+//              cout << col << " ";
+//          }
+//          cout << endl;
+
+//     }
+// }
