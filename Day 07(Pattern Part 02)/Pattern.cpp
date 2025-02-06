@@ -70,10 +70,14 @@ using namespace std;
 // }
 
 // Q-15
-
+// a 
+// b b
+// c c c
+// d d d d
+// e e e e e
 int main(){
     for(int row = 1; row <= 5; row++){
-        // row same hai islye row k andr hi ayega char and row tk hi condition lgygi..
+        // row tk hi condition lgygi..
         char name = 'a' + (row - 1);
         for(int col = 1; col <= row; col++){
             cout << name << " ";
