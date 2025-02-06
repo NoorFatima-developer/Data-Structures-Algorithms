@@ -39,5 +39,14 @@ int main(){
     int num;
     cout << "Enter a number: ";
     cin >> num;
-    for(int row=1; row<=num; row++)
+    for(int row=1; row<=num; row++){
+        for(int col=1; col<=num; col++){
+            // print star...
+            cout<<"  ";
+        }
+        for(int col=1; col<=row; col++){
+            // print numbers...
+            cout<< row ;
+        }
+    }
 }
