@@ -73,9 +73,11 @@ using namespace std;
 
 int main(){
     for(int row = 1; row <= 5; row++){
-        for(char name = 'a'; name <= 'e'; name++){
+        // row same hai islye row k andr hi ayega char and row tk hi condition lgygi..
+        char name = 'a' + (row - 1);
+        for(int col = 1; col <= row; col++){
             cout << name << " ";
         }
-        cout << endl;  // New line after each row
+        cout << endl;  // New line after each rowx        
     }
 }
