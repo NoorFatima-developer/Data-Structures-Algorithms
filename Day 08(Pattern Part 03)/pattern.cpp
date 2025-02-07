@@ -106,24 +106,24 @@ using namespace std;
 //   a b c d
 // a b c d e
 
-int main(){
-    // user sy input leny klye...
-    int num;
-    cout << "Enter a number: ";
-    cin >> num;
+// int main(){
+//     // user sy input leny klye...
+//     int num;
+//     cout << "Enter a number: ";
+//     cin >> num;
     
-    for(int row=1; row<=num; row++){
-        for(int col=1; col<=num-row; col++){
-            cout << "  ";
-        }
-        char name = 'a' + (row - 1);
-        for(char col='a'; col<=name; col++){
-            cout << col << " ";
-        }
-        cout << endl;
-    }
-    return 0;
-}
+//     for(int row=1; row<=num; row++){
+//         for(int col=1; col<=num-row; col++){
+//             cout << "  ";
+//         }
+//         char name = 'a' + (row - 1);
+//         for(char col='a'; col<=name; col++){
+//             cout << col << " ";
+//         }
+//         cout << endl;
+//     }
+//     return 0;
+// }
 
 // // Q-No 04:-(Way 02...)
 //         a
@@ -146,6 +146,35 @@ int main(){
 //             cout << name << " ";
 //         }
 //         cout << endl;
+//     }
+//     return 0;
+ 
+// }
+
+// Q-No 04:-(Way 03...)
+//         a
+//       a b
+//     a b c
+//   a b c d
+// a b c d e
+
+// int main(){
+//     // user sy input leny klye...
+//     int num;
+//     cout << "Enter a number: ";
+//     cin >> num;
+    
+//     for(int row=1; row<=num; row++){
+//         for(int col=1; col<=num-row; col++){
+//             cout << "  ";
+//         }
+//         for(int col=1; col<=row; col++){
+//             char name = 'a' + (col -1);
+//             cout << name << " ";
+        
+//         }
+//         cout << endl;
+        
 //     }
 //     return 0;
  
