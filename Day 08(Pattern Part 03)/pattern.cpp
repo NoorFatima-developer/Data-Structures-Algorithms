@@ -179,3 +179,22 @@ using namespace std;
 //     return 0;
  
 // }
+
+// Q-05:
+
+int main(){
+    int num;
+    cout << "Enter a number: ";
+    cin >> num;
+    for(int row=1; row<=num; row++){
+        for(int col=1; col<=num-row; col++){
+            cout << " ";
+        }
+        for(int col=1; col<=row; col++){
+            cout << col;
+        }
+        cout << endl;
+
+
+    }
+}
