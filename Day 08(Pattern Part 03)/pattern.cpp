@@ -132,21 +132,21 @@ using namespace std;
 //   a b c d
 // a b c d e
 
-// int main(){
-//     // user sy input leny klye...
-//     int num;
-//     cout << "Enter a number: ";
-//     cin >> num;
+int main(){
+    // user sy input leny klye...
+    int num;
+    cout << "Enter a number: ";
+    cin >> num;
     
-//     for(int row=1; row<=num; row++){
-//         for(int col=1; col<=num-row; col++){
-//             cout << "  ";
-//         }
-//         for(char name = 'a'; name <='a' + (row - 1); name++){
-//             cout << name << " ";
-//         }
-//         cout << endl;
-//     }
-//     return 0;
+    for(int row=1; row<=num; row++){
+        for(int col=1; col<=num-row; col++){
+            cout << "  ";
+        }
+        for(char name = 'a'; name <='a' + (row - 1); name++){
+            cout << name << " ";
+        }
+        cout << endl;
+    }
+    return 0;
  
-// }
+}
