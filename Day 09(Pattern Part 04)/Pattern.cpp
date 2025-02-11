@@ -170,7 +170,50 @@ using namespace std;
 
 // }
 
-// Q-NO-05...
+// Q-NO-05...(Butterfly pattern..)
+
+// int main(){
+//     int row;
+//     int col;
+//     int n;
+    
+//     cout << "Enter the Input: ";
+//     cin >> n;
+
+//     for(int row = 1; row <= n; row++){
+//         // print *...
+//         for(int col = 1; col <= row; col++){
+//             cout << "* ";
+//         }
+//         // print space...
+//         for(int col = 1; col <= 2*(n - row); col++){
+//             cout << "  ";
+//         }
+//          // print *...
+//          for(int col = 1; col <= row; col++){
+//             cout << "* ";
+//         }
+//         cout << endl;
+//     }
+
+//     for(int row = n-1; row >= 1; row--){
+//         // print *...
+//         for(int col = 1; col <= row; col++){
+//             cout << "* ";
+//         }
+//         // print space...
+//         for(int col = 1; col <= 2*(n - row); col++){
+//             cout << "  ";
+//         }
+//          // print *...
+//          for(int col = 1; col <= row; col++){
+//             cout << "* ";
+//         }
+//         cout << endl;
+//     }
+// }
+
+// Q-NO-06(DIAMOND PATTERN)
 
 int main(){
     int row;
@@ -179,36 +222,4 @@ int main(){
     
     cout << "Enter the Input: ";
     cin >> n;
-
-    for(int row = 1; row <= n; row++){
-        // print *...
-        for(int col = 1; col <= row; col++){
-            cout << "* ";
-        }
-        // print space...
-        for(int col = 1; col <= 2*(n - row); col++){
-            cout << "  ";
-        }
-         // print *...
-         for(int col = 1; col <= row; col++){
-            cout << "* ";
-        }
-        cout << endl;
-    }
-
-    for(int row = n-1; row >= 1; row--){
-        // print *...
-        for(int col = 1; col <= row; col++){
-            cout << "* ";
-        }
-        // print space...
-        for(int col = 1; col <= 2*(n - row); col++){
-            cout << "  ";
-        }
-         // print *...
-         for(int col = 1; col <= row; col++){
-            cout << "* ";
-        }
-        cout << endl;
-    }
 }
