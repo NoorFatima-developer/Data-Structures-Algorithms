@@ -2,8 +2,9 @@
 using namespace std;
 
 // Q-NO-01:
+// Req--> space, *(1, 3, 5,...)
 // Formula for space: num - row:(1st inner loop)
-// Formula: 1 sy 2*row-1 tk..(2nd inner loop)
+// Formula for *: 1 sy 2*row-1 tk..(2nd inner loop)
 
 //      *
 //     ***
@@ -32,6 +33,8 @@ using namespace std;
 // }
 
 // Q-NO-02:
+// Req--> space, inc + dec...
+// Formula for space: num - row:(1st inner loop)
 // Formula: increment and decrement..
 // For increment: 1 sy row tk..
 // For decrement: row - 1 sy 1 tk...
@@ -77,6 +80,27 @@ using namespace std;
 //        * * *
 //          *
 
+// int main(){
+//     int row;
+//     int col;
+//     int n;
+    
+//     cout << "Enter the Input: ";
+//     cin >> n;
+
+//     for(int row = n; row >= 1; row--){
+//         for(int col = 1; col <= n - row; ++col){
+//             cout << "  ";
+//         }
+//         for(int col = 1; col <= 2 * row - 1; ++col){
+//             cout << " *";
+//         }
+//         cout << endl;
+//     }
+// }
+
+// Q-NO-04:
+
 int main(){
     int row;
     int col;
@@ -84,14 +108,4 @@ int main(){
     
     cout << "Enter the Input: ";
     cin >> n;
-
-    for(int row = n; row >= 1; row--){
-        for(int col = 1; col <= n - row; ++col){
-            cout << "  ";
-        }
-        for(int col = 1; col <= 2 * row - 1; ++col){
-            cout << " *";
-        }
-        cout << endl;
-    }
 }
