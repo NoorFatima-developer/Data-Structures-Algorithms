@@ -32,7 +32,37 @@ using namespace std;
 //     }
 // }
 
-// Q-NO-02:
+// Q-NO-02:(Reverse Q-No-01...)
+// user jo num enter kr rha hai osk lehaz sy first row mai kitny nums ya * ayegay oska formula:
+// 2*n-1
+
+// Enter the Input: 5
+//  * * * * * * * * *
+//    * * * * * * *
+//      * * * * *
+//        * * *
+//          *
+
+// int main(){
+//     int row;
+//     int col;
+//     int n;
+    
+//     cout << "Enter the Input: ";
+//     cin >> n;
+
+//     for(int row = n; row >= 1; row--){
+//         for(int col = 1; col <= n - row; ++col){
+//             cout << "  ";
+//         }
+//         for(int col = 1; col <= 2 * row - 1; ++col){
+//             cout << " *";
+//         }
+//         cout << endl;
+//     }
+// }
+
+// Q-NO-03:
 // Req--> space, inc + dec...
 // Formula for space: num - row:(1st inner loop)
 // Formula: increment and decrement..
@@ -69,35 +99,6 @@ using namespace std;
 //     }
 // }
 
-// Q-NO-03:
-// user jo num enter kr rha hai osk lehaz sy first row mai kitny nums ya * ayegay oska formula:
-// 2*n-1
-
-// Enter the Input: 5
-//  * * * * * * * * *
-//    * * * * * * *
-//      * * * * *
-//        * * *
-//          *
-
-// int main(){
-//     int row;
-//     int col;
-//     int n;
-    
-//     cout << "Enter the Input: ";
-//     cin >> n;
-
-//     for(int row = n; row >= 1; row--){
-//         for(int col = 1; col <= n - row; ++col){
-//             cout << "  ";
-//         }
-//         for(int col = 1; col <= 2 * row - 1; ++col){
-//             cout << " *";
-//         }
-//         cout << endl;
-//     }
-// }
 
 // Q-NO-04:
 
