@@ -193,9 +193,10 @@ int main(){
          for(int col = 1; col <= row; col++){
             cout << "* ";
         }
+        cout << endl;
     }
 
-    for(int row = row-1; row <= 1; row++){
+    for(int row = n-1; row >= 1; row--){
         // print *...
         for(int col = 1; col <= row; col++){
             cout << "* ";
@@ -208,5 +209,6 @@ int main(){
          for(int col = 1; col <= row; col++){
             cout << "* ";
         }
+        cout << endl;
     }
 }
