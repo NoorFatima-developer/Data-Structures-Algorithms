@@ -222,4 +222,16 @@ int main(){
     
     cout << "Enter the Input: ";
     cin >> n;
+
+    for(int row = 1; row <= n; row){
+        // print space...
+        for(int col = 1; col <= n - row; col++){
+            cout << "  ";
+        }
+        // print *...
+        for(int col = 1; col <= row; col++){
+            cout << "* ";
+        }
+        cout << endl;
+    }
 }
