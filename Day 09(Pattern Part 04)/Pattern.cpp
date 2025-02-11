@@ -78,7 +78,7 @@ int main(){
     cout << "Enter the Input: ";
     cin >> n;
 
-    for(int row = 1; row <= n; ++row){
+    for(int row = 1; row >= n; --row){
         for(int col = 1; col <= n - row; ++col){
             cout << " ";
         }
