@@ -2,7 +2,8 @@
 using namespace std;
 
 // Q-NO-01:
-// Formula: 1 sy 2*row-1 tk..
+// Formula for space: num - row:(1st inner loop)
+// Formula: 1 sy 2*row-1 tk..(2nd inner loop)
 
 //      *
 //     ***
