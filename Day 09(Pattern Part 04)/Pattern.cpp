@@ -107,6 +107,8 @@ using namespace std;
 // yahan pr pehly *, space, *
 // so formula will be something like that..
 // 2*n - 2*row... || 2(n - row)
+// 2n = 2(user num jo enter kryga means total..)
+// so minus 2row from total...
 
 // Enter the Input: 5
 // * * * * * * * * * * 
