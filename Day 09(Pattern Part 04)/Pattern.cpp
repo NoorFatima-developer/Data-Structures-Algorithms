@@ -101,50 +101,65 @@ using namespace std;
 
 
 // Q-NO-04:
+
+// Enter the Input: 5
+// * * * * * * * * * * 
+// * * * *     * * * * 
+// * * *         * * * 
+// * *             * * 
+// *                 * 
+// *                 * 
+// * *             * * 
+// * * *         * * * 
+// * * * *     * * * * 
+// * * * * * * * * * * 
+
 // Req-> *, space, * ...
 // Reverse krygy row ko...because * bry sy choty ki trf jaraha hai...
 // basically 2dfa star print hory hain islye space b 2times hogi..
 // space klye use this formula: 2*n-2*row===> 2*(n-row)
-int main(){
-    int row;
-    int col;
-    int n;
+// int main(){
+//     int row;
+//     int col;
+//     int n;
     
-    cout << "Enter the Input: ";
-    cin >> n;
+//     cout << "Enter the Input: ";
+//     cin >> n;
 
-    // Row starts from n and ends at 1..
-    for(int row = n; row >= 1; row--){
-        // print *
-        for(int col = 1; col <= row; col++){
-            cout << "* ";
-        } 
-        // print space
-        for(int col = 1; col<= 2*(n-row); col++ ){
-            cout << "  ";
-        }
-        // print *
-        for(int col = 1; col <= row; col++){
-            cout << "* ";
-        } 
-        cout << endl;
-    }
+//     // Row starts from n and ends at 1..
+//     for(int row = n; row >= 1; row--){
+//         // print *
+//         for(int col = 1; col <= row; col++){
+//             cout << "* ";
+//         } 
+//         // print space
+//         for(int col = 1; col<= 2*(n-row); col++ ){
+//             cout << "  ";
+//         }
+//         // print *
+//         for(int col = 1; col <= row; col++){
+//             cout << "* ";
+//         } 
+//         cout << endl;
+//     }
 
-      // Row starts from 1 and ends at n..
-      for(int row = 1; row <= n; row++){
-        // print *
-        for(int col = 1; col <= row; col++){
-            cout << "* ";
-        } 
-        // print space
-        for(int col = 1; col<= 2*(n-row); col++ ){
-            cout << "  ";
-        }
-        // print *
-        for(int col = 1; col <= row; col++){
-            cout << "* ";
-        } 
-        cout << endl;
-    }
+//       // Row starts from 1 and ends at n..
+//       for(int row = 1; row <= n; row++){
+//         // print *
+//         for(int col = 1; col <= row; col++){
+//             cout << "* ";
+//         } 
+//         // print space
+//         for(int col = 1; col<= 2*(n-row); col++ ){
+//             cout << "  ";
+//         }
+//         // print *
+//         for(int col = 1; col <= row; col++){
+//             cout << "* ";
+//         } 
+//         cout << endl;
+//     }
 
-}
+// }
+
+// Q-NO-05...
