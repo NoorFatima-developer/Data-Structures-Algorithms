@@ -171,3 +171,42 @@ using namespace std;
 // }
 
 // Q-NO-05...
+
+int main(){
+    int row;
+    int col;
+    int n;
+    
+    cout << "Enter the Input: ";
+    cin >> n;
+
+    for(int row = 1; row <= n; row++){
+        // print *...
+        for(int col = 1; col <= row; col++){
+            cout << "* ";
+        }
+        // print space...
+        for(int col = 1; col <= 2*(n - row); col++){
+            cout << "  ";
+        }
+         // print *...
+         for(int col = 1; col <= row; col++){
+            cout << "* ";
+        }
+    }
+
+    for(int row = row-1; row <= 1; row++){
+        // print *...
+        for(int col = 1; col <= row; col++){
+            cout << "* ";
+        }
+        // print space...
+        for(int col = 1; col <= 2*(n - row); col++){
+            cout << "  ";
+        }
+         // print *...
+         for(int col = 1; col <= row; col++){
+            cout << "* ";
+        }
+    }
+}
