@@ -40,18 +40,18 @@ int main(){
     cin >> n;
 
     for(int row=1; row<=n; row++){
-        // For space:
+        // For space:(1 sy n-row tk)
         for(int col=1; col<=n-row; col++){
-            cout << " ";
+            cout <<" ";
         }
-        // For *
+        // For num:(1 sy row tk)
         for(int col=1; col<=row; col++){
-            cout << "*";
+            cout << col <<" ";
         }
-        // For decrement where row ends...
-        for(int col=1; col>=row; col--){
-
-        }
+        // For decrement(row-1 sy 1 tk..) where row ends...
+        for(int col=row-1; col>=1; col--){
+            cout << col <<" ";
+    }
         cout << endl;
     }
 }
