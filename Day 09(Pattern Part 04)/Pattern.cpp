@@ -32,6 +32,14 @@ using namespace std;
 // }
 
 // Q-NO-02:
+// Formula: increment and decrement..
+// For increment: 1 sy row tk..
+// For decrement: row - 1 sy 1 tk...
+//         1 
+//       1 2 1 
+//     1 2 3 2 1 
+//   1 2 3 4 3 2 1 
+// 1 2 3 4 5 4 3 2 1 
 
 // int main(){
 //     int row;
@@ -59,6 +67,8 @@ using namespace std;
 // }
 
 // Q-NO-03:
+// user jo num enter kr rha hai osk lehaz sy first row mai kitny nums ya * ayegay oska formula:
+// 2*n-1
 
 int main(){
     int row;
