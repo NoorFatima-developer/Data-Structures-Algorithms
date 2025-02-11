@@ -70,6 +70,13 @@ using namespace std;
 // user jo num enter kr rha hai osk lehaz sy first row mai kitny nums ya * ayegay oska formula:
 // 2*n-1
 
+// Enter the Input: 5
+//  * * * * * * * * *
+//    * * * * * * *
+//      * * * * *
+//        * * *
+//          *
+
 int main(){
     int row;
     int col;
