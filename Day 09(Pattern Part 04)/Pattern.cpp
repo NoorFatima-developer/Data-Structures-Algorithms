@@ -113,10 +113,11 @@ int main(){
     cout << "Enter the Input: ";
     cin >> n;
 
-    for(int row = n; row <= 1; row++){
+    // Row starts from n and ends at 1..
+    for(int row = n; row >= 1; row--){
         // print *
         for(int col = 1; col <= row; col++){
-            cout << "  ";
+            cout << "* ";
         } 
         // print space
         for(int col = 1; col<= 2*(n-row); col++ ){
@@ -124,8 +125,26 @@ int main(){
         }
         // print *
         for(int col = 1; col <= row; col++){
-            cout << "  ";
+            cout << "* ";
         } 
+        cout << endl;
+    }
+
+      // Row starts from 1 and ends at n..
+      for(int row = 1; row <= n; row++){
+        // print *
+        for(int col = 1; col <= row; col++){
+            cout << "* ";
+        } 
+        // print space
+        for(int col = 1; col<= 2*(n-row); col++ ){
+            cout << "  ";
+        }
+        // print *
+        for(int col = 1; col <= row; col++){
+            cout << "* ";
+        } 
+        cout << endl;
     }
 
 }
