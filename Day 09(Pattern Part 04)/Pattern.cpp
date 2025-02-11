@@ -101,6 +101,12 @@ using namespace std;
 
 
 // Q-NO-04:
+// Ab iss bry pattern ko humny 2 parts mai divide krk code kea 
+// hai, so pehly space ka formula hota tha..
+// n - row,,
+// yahan pr pehly *, space, *
+// so formula will be something like that..
+// 2*n - 2*row... || 2(n - row)
 
 // Enter the Input: 5
 // * * * * * * * * * * 
