@@ -215,6 +215,13 @@ using namespace std;
 
 // Q-NO-06(DIAMOND PATTERN)
 
+// Enter the Input: 5
+//     * 
+//    * * 
+//   * * * 
+//  * * * * 
+// * * * * * 
+
 int main(){
     int row;
     int col;
@@ -223,10 +230,10 @@ int main(){
     cout << "Enter the Input: ";
     cin >> n;
 
-    for(int row = 1; row <= n; row){
+    for(int row = 1; row <= n; row++){
         // print space...
         for(int col = 1; col <= n - row; col++){
-            cout << "  ";
+            cout << " ";
         }
         // print *...
         for(int col = 1; col <= row; col++){
