@@ -42,7 +42,7 @@ int main(){
     for(int row=1; row<=n; row++){
         // For space:(1 sy n-row tk)
         for(int col=1; col<=n-row; col++){
-            cout <<" ";
+            cout << "  ";
         }
         // For num:(1 sy row tk)
         for(int col=1; col<=row; col++){
