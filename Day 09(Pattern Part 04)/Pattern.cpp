@@ -13,24 +13,24 @@ using namespace std;
 //  *********
 // ***********
 
-// int main(){
-//     int row;
-//     int col;
-//     int n;
+int main(){
+    int row;
+    int col;
+    int n;
     
-//     cout << "Enter the Input: ";
-//     cin >> n;
+    cout << "Enter the Input: ";
+    cin >> n;
 
-//     for(int row = 1; row <= n; ++row){
-//         for(int col = 1; col <= n - row; ++col){
-//             cout << " ";
-//         }
-//         for(int col = 1; col <= 2 * row - 1; ++col){
-//             cout << "*";
-//         }
-//         cout << endl;
-//     }
-// }
+    for(int row = 1; row <= n; ++row){
+        for(int col = 1; col <= n - row; ++col){
+            cout << " ";
+        }
+        for(int col = 1; col <= 2 * row - 1; ++col){
+            cout << "*";
+        }
+        cout << endl;
+    }
+}
 
 // Q-NO-02:(Reverse Q-No-01...)
 // user jo num enter kr rha hai osk lehaz sy first row mai kitny nums ya * ayegay oska formula:
@@ -43,24 +43,24 @@ using namespace std;
 //        * * *
 //          *
 
-// int main(){
-//     int row;
-//     int col;
-//     int n;
+int main(){
+    int row;
+    int col;
+    int n;
     
-//     cout << "Enter the Input: ";
-//     cin >> n;
+    cout << "Enter the Input: ";
+    cin >> n;
 
-//     for(int row = n; row >= 1; row--){
-//         for(int col = 1; col <= n - row; ++col){
-//             cout << "  ";
-//         }
-//         for(int col = 1; col <= 2 * row - 1; ++col){
-//             cout << " *";
-//         }
-//         cout << endl;
-//     }
-// }
+    for(int row = n; row >= 1; row--){
+        for(int col = 1; col <= n - row; ++col){
+            cout << "  ";
+        }
+        for(int col = 1; col <= 2 * row - 1; ++col){
+            cout << " *";
+        }
+        cout << endl;
+    }
+}
 
 // Q-NO-03:
 // Req--> space, inc + dec...
@@ -74,30 +74,30 @@ using namespace std;
 //   1 2 3 4 3 2 1 
 // 1 2 3 4 5 4 3 2 1 
 
-// int main(){
-//     int row;
-//     int col;
-//     int n;
+int main(){
+    int row;
+    int col;
+    int n;
     
-//     cout << "Enter the Input: ";
-//     cin >> n;
+    cout << "Enter the Input: ";
+    cin >> n;
 
-//     for(int row=1; row<=n; row++){
-//         // For space:(1 sy n-row tk)
-//         for(int col=1; col<=n-row; col++){
-//             cout << "  ";
-//         }
-//         // For num:(1 sy row tk)
-//         for(int col=1; col<=row; col++){
-//             cout << col <<" ";
-//         }
-//         // For decrement(row-1 sy 1 tk..) where row ends...
-//         for(int col=row-1; col>=1; col--){
-//             cout << col <<" ";
-//     }
-//         cout << endl;
-//     }
-// }
+    for(int row=1; row<=n; row++){
+        // For space:(1 sy n-row tk)
+        for(int col=1; col<=n-row; col++){
+            cout << "  ";
+        }
+        // For num:(1 sy row tk)
+        for(int col=1; col<=row; col++){
+            cout << col <<" ";
+        }
+        // For decrement(row-1 sy 1 tk..) where row ends...
+        for(int col=row-1; col>=1; col--){
+            cout << col <<" ";
+    }
+        cout << endl;
+    }
+}
 
 
 // Q-NO-04:
@@ -126,92 +126,92 @@ using namespace std;
 // Reverse krygy row ko...because * bry sy choty ki trf jaraha hai...
 // basically 2dfa star print hory hain islye space b 2times hogi..
 // space klye use this formula: 2*n-2*row===> 2*(n-row)
-// int main(){
-//     int row;
-//     int col;
-//     int n;
+int main(){
+    int row;
+    int col;
+    int n;
     
-//     cout << "Enter the Input: ";
-//     cin >> n;
+    cout << "Enter the Input: ";
+    cin >> n;
 
-//     // Row starts from n and ends at 1..
-//     for(int row = n; row >= 1; row--){
-//         // print *
-//         for(int col = 1; col <= row; col++){
-//             cout << "* ";
-//         } 
-//         // print space
-//         for(int col = 1; col<= 2*(n-row); col++ ){
-//             cout << "  ";
-//         }
-//         // print *
-//         for(int col = 1; col <= row; col++){
-//             cout << "* ";
-//         } 
-//         cout << endl;
-//     }
+    // Row starts from n and ends at 1..
+    for(int row = n; row >= 1; row--){
+        // print *
+        for(int col = 1; col <= row; col++){
+            cout << "* ";
+        } 
+        // print space
+        for(int col = 1; col<= 2*(n-row); col++ ){
+            cout << "  ";
+        }
+        // print *
+        for(int col = 1; col <= row; col++){
+            cout << "* ";
+        } 
+        cout << endl;
+    }
 
-//       // Row starts from 1 and ends at n..
-//       for(int row = 1; row <= n; row++){
-//         // print *
-//         for(int col = 1; col <= row; col++){
-//             cout << "* ";
-//         } 
-//         // print space
-//         for(int col = 1; col<= 2*(n-row); col++ ){
-//             cout << "  ";
-//         }
-//         // print *
-//         for(int col = 1; col <= row; col++){
-//             cout << "* ";
-//         } 
-//         cout << endl;
-//     }
+      // Row starts from 1 and ends at n..
+      for(int row = 1; row <= n; row++){
+        // print *
+        for(int col = 1; col <= row; col++){
+            cout << "* ";
+        } 
+        // print space
+        for(int col = 1; col<= 2*(n-row); col++ ){
+            cout << "  ";
+        }
+        // print *
+        for(int col = 1; col <= row; col++){
+            cout << "* ";
+        } 
+        cout << endl;
+    }
 
-// }
+}
 
 // Q-NO-05...(Butterfly pattern..)
 
-// int main(){
-//     int row;
-//     int col;
-//     int n;
+int main(){
+    int row;
+    int col;
+    int n;
     
-//     cout << "Enter the Input: ";
-//     cin >> n;
+    cout << "Enter the Input: ";
+    cin >> n;
 
-//     for(int row = 1; row <= n; row++){
-//         // print *...
-//         for(int col = 1; col <= row; col++){
-//             cout << "* ";
-//         }
-//         // print space...
-//         for(int col = 1; col <= 2*(n - row); col++){
-//             cout << "  ";
-//         }
-//          // print *...
-//          for(int col = 1; col <= row; col++){
-//             cout << "* ";
-//         }
-//         cout << endl;
-//     }
+    for(int row = 1; row <= n; row++){
+        // print *...
+        for(int col = 1; col <= row; col++){
+            cout << "* ";
+        }
+        // print space...
+        for(int col = 1; col <= 2*(n - row); col++){
+            cout << "  ";
+        }
+         // print *...
+         for(int col = 1; col <= row; col++){
+            cout << "* ";
+        }
+        cout << endl;
+    }
 
-//     for(int row = n-1; row >= 1; row--){
-//         // print *...
-//         for(int col = 1; col <= row; col++){
-//             cout << "* ";
-//         }
-//         // print space...
-//         for(int col = 1; col <= 2*(n - row); col++){
-//             cout << "  ";
-//         }
-//          // print *...
-//          for(int col = 1; col <= row; col++){
-//             cout << "* ";
-//         }
-//         cout << endl;
-//     }
-// }
+    for(int row = n-1; row >= 1; row--){
+        // print *...
+        for(int col = 1; col <= row; col++){
+            cout << "* ";
+        }
+        // print space...
+        for(int col = 1; col <= 2*(n - row); col++){
+            cout << "  ";
+        }
+         // print *...
+         for(int col = 1; col <= row; col++){
+            cout << "* ";
+        }
+        cout << endl;
+    }
+}
 
 // Q-NO-06(DIAMOND PATTERN)
 
