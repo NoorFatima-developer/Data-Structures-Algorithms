@@ -101,7 +101,10 @@ using namespace std;
 
 
 // Q-NO-04:
-
+// Req-> *, space, * ...
+// Reverse krygy row ko...because * bry sy choty ki trf jaraha hai...
+// basically 2dfa star print hory hain islye space b 2times hogi..
+// space klye use this formula: 2*n-2*row===> 2*(n-row)
 int main(){
     int row;
     int col;
@@ -109,4 +112,20 @@ int main(){
     
     cout << "Enter the Input: ";
     cin >> n;
+
+    for(int row = n; row <= 1; row++){
+        // print *
+        for(int col = 1; col <= row; col++){
+            cout << "  ";
+        } 
+        // print space
+        for(int col = 1; col<= 2*(n-row); col++ ){
+            cout << "  ";
+        }
+        // print *
+        for(int col = 1; col <= row; col++){
+            cout << "  ";
+        } 
+    }
+
 }
