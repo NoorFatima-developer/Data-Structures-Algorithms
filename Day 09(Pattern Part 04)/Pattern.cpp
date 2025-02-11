@@ -38,4 +38,20 @@ int main(){
     
     cout << "Enter the Input: ";
     cin >> n;
+
+    for(int row=1; row<=n; row++){
+        // For space:
+        for(int col=1; col<=n-row; col++){
+            cout << " ";
+        }
+        // For *
+        for(int col=1; col<=row; col++){
+            cout << "*";
+        }
+        // For decrement where row ends...
+        for(int col=1; col>=row; col--){
+
+        }
+        cout << endl;
+    }
 }
