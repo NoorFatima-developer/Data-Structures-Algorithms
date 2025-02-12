@@ -24,3 +24,5 @@ int main(){
 // and aghr answer yes m o ga tu answer will be 1...
 
 
+// 5 > 4 > 3  --->answer is no..
+// because 5 > 4 (true) means 1 > 3 (false)-->0,,
