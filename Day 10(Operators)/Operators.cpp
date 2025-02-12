@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 // Arithmetic operations:(unary operators(++, --) and binary operators(*, /, %) and(+, -))
 
 // 01-Unary operator:
@@ -23,4 +22,5 @@ int main(){
 // Comparison Operators:(==, >, <, >=, <=, !=)
 // if a == b, means a == 6; answer is no.. means 0....
 // and aghr answer yes m o ga tu answer will be 1...
+
 
