@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+
+// Arithmetic operations:(unary operators(++, --) and binary operators(*, /, %) and(+, -))
 int main(){
     // jiski presence bri hogi wo hi output mai ayega..
     cout << 15/2 << endl;       //output = 7;(int h tu int hi..)
@@ -14,5 +16,5 @@ int main(){
     // pre decrement..
     int b = 10;
     cout << --b << endl; // output = 9
-    cout << b << endl;   // output = 8
+    cout << b << endl;   // output = 9
 }
