@@ -11,4 +11,8 @@ int main(){
     int a = 10;
     cout << a++ << endl; // output = 10
     cout << a << endl;   // output = 11
+    // pre decrement..
+    int b = 10;
+    cout << --b << endl; // output = 9
+    cout << b << endl;   // output = 8
 }
