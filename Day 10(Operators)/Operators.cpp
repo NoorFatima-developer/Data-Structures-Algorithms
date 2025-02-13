@@ -80,46 +80,46 @@ int main(){
 
 // 05-----Assignment Operators:
 
-int a = 10;
-a+=16;
+// int a = 10;
+// a+=16;
 
-cout << a << endl;
+// cout << a << endl;
 
-a-=16;
+// a-=16;
 
-cout << a << endl;
+// cout << a << endl;
 
-a*=16;
+// a*=16;
 
-cout << a << endl;
+// cout << a << endl;
 
-a/=16;
+// a/=16;
 
-cout << a << endl;
+// cout << a << endl;
 
-a%=16;
+// a%=16;
 
-cout << a << endl;
+// cout << a << endl;
 
-a<<=16;
+// a<<=16;
 
-cout << a << endl;
+// cout << a << endl;
 
-a>>=16;
+// a>>=16;
 
-cout << a << endl;
+// cout << a << endl;
 
-a&=16;
+// a&=16;
 
-cout << a << endl;
+// cout << a << endl;
 
-a|=16;
+// a|=16;
 
-cout << a << endl;
+// cout << a << endl;
 
-a^=16;
+// a^=16;
 
-cout << a << endl;
+// cout << a << endl;
 
 
 }
