@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
-// Arithmetic operations:(unary operators includes pre and post increment and decrement...(++, --) and binary operators(*, /, %) and(+, -))
+// 01----------Arithmetic operations:(unary operators includes pre and post increment and decrement...(++, --) and binary operators(*, /, %) and(+, -))
 
-// 01-Unary operator:
+// i-Unary operator:
 int main(){
     // jiski presence bri hogi wo hi output mai ayega..
     cout << 15/2 << endl;       //output = 7;(int h tu int hi..)
@@ -19,10 +19,13 @@ int main(){
     cout << b << endl;   // output = 9
 }
 
-// Comparison Operators:(==, >, <, >=, <=, !=)
+// 02----Comparison Operators:(==, >, <, >=, <=, !=)
 // if a == b, means a == 6; answer is no.. means 0....
 // and aghr answer yes m o ga tu answer will be 1...
 
 
 // 5 > 4 > 3  --->answer is no..
 // because 5 > 4 (true) means 1 > 3 (false)-->0,,
+
+
+// 03-----Logical Operators:(&&, ||, !)
