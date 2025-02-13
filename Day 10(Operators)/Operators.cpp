@@ -30,26 +30,30 @@ int main(){
 // 03-----Logical Operators:(&&, ||, !)
 
 // && operator:
-int a, b, c;
-cin>> a >> b >> c;
+// int a, b, c;
+// cin>> a >> b >> c;
 
-if(a>b&&a>c){
-    cout << "yes";
-}
-else {
-    cout << "no";
-}
+// if(a>b&&a>c){
+//     cout << "yes";
+// }
+// else {
+//     cout << "no";
+// }
 
 // OR operator:
 
-char name = 'a';
+// char name = 'a';
 
-if(name == 'a' || name == 'e' || name == 'i' || name == 'o' || name == 'u'){
-    cout << "vowels";
-}
-else {
-    cout << "consonants";
-}
+// if(name == 'a' || name == 'e' || name == 'i' || name == 'o' || name == 'u'){
+//     cout << "vowels";
+// }
+// else {
+//     cout << "consonants";
+// }
 
+
+// !
+
+cout << !22;
 }
 
