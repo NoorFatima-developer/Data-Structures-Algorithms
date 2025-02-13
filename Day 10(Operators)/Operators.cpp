@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-// Arithmetic operations:(unary operators(++, --) and binary operators(*, /, %) and(+, -))
+// Arithmetic operations:(unary operators includes pre and post increment and decrement...(++, --) and binary operators(*, /, %) and(+, -))
 
 // 01-Unary operator:
 int main(){
