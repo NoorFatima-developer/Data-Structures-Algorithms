@@ -58,10 +58,69 @@ int main(){
 
 // 04-----Bitwise Operators:(&, |, ~, ^, <<, >>)
 
-int ans = 2&3;
+// int ans = 2&3;
 
-cout << ans << endl;
+// cout << ans << endl;
 
-// 05-----Ternary Operators: (condition? expression1 : expression2)
+// ans = 2|3;
+
+// cout << ans << endl;
+
+// ans = 2^3;
+
+// cout << ans << endl;
+
+// ans = 2 << 2;
+
+// cout << ans << endl;
+
+// ans = 2 >> 2;
+
+// cout << ans << endl;
+
+// 05-----Assignment Operators:
+
+int a = 10;
+a+=16;
+
+cout << a << endl;
+
+a-=16;
+
+cout << a << endl;
+
+a*=16;
+
+cout << a << endl;
+
+a/=16;
+
+cout << a << endl;
+
+a%=16;
+
+cout << a << endl;
+
+a<<=16;
+
+cout << a << endl;
+
+a>>=16;
+
+cout << a << endl;
+
+a&=16;
+
+cout << a << endl;
+
+a|=16;
+
+cout << a << endl;
+
+a^=16;
+
+cout << a << endl;
+
+
 }
 
