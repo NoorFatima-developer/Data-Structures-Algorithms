@@ -4,19 +4,19 @@ using namespace std;
 
 // i-Unary operator:
 int main(){
-    // jiski presence bri hogi wo hi output mai ayega..
-    cout << 15/2 << endl;       //output = 7;(int h tu int hi..)
-    cout << 15.0/2 << endl;  //output = 7.5;(float h tu float)
-    cout << 15.0/2.0 << endl; //output = 7.5;(float h tu float)
+    // // jiski presence bri hogi wo hi output mai ayega..
+    // cout << 15/2 << endl;       //output = 7;(int h tu int hi..)
+    // cout << 15.0/2 << endl;  //output = 7.5;(float h tu float)
+    // cout << 15.0/2.0 << endl; //output = 7.5;(float h tu float)
 
-    // post increment..
-    int a = 10;
-    cout << a++ << endl; // output = 10
-    cout << a << endl;   // output = 11
-    // pre decrement..
-    int b = 10;
-    cout << --b << endl; // output = 9
-    cout << b << endl;   // output = 9
+    // // post increment..
+    // int a = 10;
+    // cout << a++ << endl; // output = 10
+    // cout << a << endl;   // output = 11
+    // // pre decrement..
+    // int b = 10;
+    // cout << --b << endl; // output = 9
+    // cout << b << endl;   // output = 9
 
 // 02----Comparison Operators:(==, >, <, >=, <=, !=)
 // if a == b, means a == 6; answer is no.. means 0....
@@ -29,6 +29,7 @@ int main(){
 
 // 03-----Logical Operators:(&&, ||, !)
 
+// && operator:
 int a, b, c;
 cin>> a >> b >> c;
 
@@ -37,6 +38,17 @@ if(a>b&&a>c){
 }
 else {
     cout << "no";
+}
+
+// OR operator:
+
+char name = 'a';
+
+if(name == 'a' || name == 'e' || name == 'i' || name == 'o' || name == 'u'){
+    cout << "vowels";
+}
+else {
+    cout << "consonants";
 }
 
 }
