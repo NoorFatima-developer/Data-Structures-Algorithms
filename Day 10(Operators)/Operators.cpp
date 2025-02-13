@@ -54,6 +54,14 @@ int main(){
 
 // !
 
-cout << !22;
+// cout << !22;
+
+// 04-----Bitwise Operators:(&, |, ~, ^, <<, >>)
+
+int ans = 2&3;
+
+cout << ans << endl;
+
+// 05-----Ternary Operators: (condition? expression1 : expression2)
 }
 
