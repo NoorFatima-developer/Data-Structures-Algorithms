@@ -17,7 +17,6 @@ int main(){
     int b = 10;
     cout << --b << endl; // output = 9
     cout << b << endl;   // output = 9
-}
 
 // 02----Comparison Operators:(==, >, <, >=, <=, !=)
 // if a == b, means a == 6; answer is no.. means 0....
@@ -29,3 +28,15 @@ int main(){
 
 
 // 03-----Logical Operators:(&&, ||, !)
+
+int a, b, c;
+cin>> a >> b >> c;
+
+if(a>b&&a>c){
+    cout << "yes";
+}
+else {
+    cout << "no";
+}
+}
+
