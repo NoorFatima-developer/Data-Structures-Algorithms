@@ -7,9 +7,9 @@ int main() {
     int n = 8;
     int i = 1;
 
-    while(i <= 10*n) {
-        cout << i << " ";
-        i += n;
+    while(i <= 10) {
+       cout << "n*1" << "";
+       i++;
     }
 
     return 0;
