@@ -11,8 +11,8 @@ int main(){
     do{
         sum = sum + i;
         i++;
-        cout << "Sum: " << sum << endl;
     }while(i < n);
+    cout << "Sum: " << sum << endl;
+    return 0;
 }
 
-// Print 1 to n numbers tu it will not work...
