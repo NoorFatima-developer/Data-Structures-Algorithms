@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+
+// Mai koi b decimal number ko binary mai convert krskti hon by uring this below formula:
 int main(){
     int num;
     cout << "Enter a number: ";
