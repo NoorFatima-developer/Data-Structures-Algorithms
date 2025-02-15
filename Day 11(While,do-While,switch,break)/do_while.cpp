@@ -14,3 +14,5 @@ int main(){
         cout << "Sum: " << sum << endl;
     }while(i < n);
 }
+
+// Print 1 to n numbers tu it will not work...
