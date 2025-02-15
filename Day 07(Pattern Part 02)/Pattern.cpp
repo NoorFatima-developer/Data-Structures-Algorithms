@@ -1,4 +1,28 @@
 // Is trhan k tree patterns mai row tk length rkhni hai col ki...
+// Formula:- 
+// 1 sy row tk.. (inn patterns klye:)
+//  *
+//  * *
+//  * * *
+//  * * * *
+//  * * * * *
+// Formula:- 
+// 1 sy num - (row-1)
+// * * * * * 
+// * * * *
+// * * *
+// * *
+// *
+// Formula:- 
+// char name = 'a' + (row - 1);
+// Q-15
+// a 
+// b b
+// c c c
+// d d d d
+// e e e e e
+
+
 
 // Q-11 
 //  *
@@ -166,7 +190,6 @@ int main(){
         cout << endl;  // New line after each row
     }
 }
-
 
 // Q-18
 // 5 
