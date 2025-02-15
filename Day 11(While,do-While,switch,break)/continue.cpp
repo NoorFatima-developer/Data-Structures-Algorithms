@@ -13,7 +13,7 @@ int main(){
 
     for(int i = 1; i <= num; i++){
         if(i == 4){
-            break;
+            continue;
         }
         cout << i << " ";
     }
