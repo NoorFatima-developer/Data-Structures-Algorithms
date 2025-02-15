@@ -16,7 +16,7 @@ using namespace std;
 //     return 0;
 // }
 
-// Print even numbers using while-loop...
+// Print even numbers using while-loop...(Way 01)
 
 // int main(){
 //     int n;
@@ -31,6 +31,10 @@ using namespace std;
 // }
 
 
+// Print even numbers using while-loop...(Way 02)
+ 
+
+
 // Print odd numbers using while-loop...
 
 int main(){
@@ -40,8 +44,8 @@ int main(){
 
     int i = 1;
     while(i <= n){
-        if(i/n){
-        cout << i << " ";
+        if(n % 2 == 0){
+        cout << n << " ";
         i += 1;
     }
 }
