@@ -13,9 +13,13 @@ int main(){
         // remainder update:
         remainder = num % 2;
         // quotient update:
-        num =  num / 2;
+        num/=2;
+        // isko essy b likh skty hain..
+        // num =  num / 2;
         // ans update:
-        ans = remainder * i + ans;
+        // ans = remainder * i + ans;
+        // isko b essy likh skti hon..
+        ans+= remainder * i;
         // multipy update:
         i*= 10;
         // essy b likh skti hon..
