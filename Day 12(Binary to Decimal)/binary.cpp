@@ -13,6 +13,7 @@ int main(){
 
         // remainder update:
         remainder = num % 2;
+        // Bitwise operator mai remainder formula:
         // remainder ko hum bitwise sy b krskty hain oss sy b 1 hi ayega..
         // remainder = num&1;
 
@@ -21,11 +22,15 @@ int main(){
         // isko essy b likh skty hain..
         // num =  num / 2;
 
+        // Bitwise operator mai quotient formula:
+        //  and isko bitwise operator sy b likh skty hain..
+        num =  num >> 1;
+      
         // ans update:
         // ans = remainder * i + ans;
         // isko b essy likh skti hon..
         ans+= remainder * i;
-        
+
         // multipy update:
         i*= 10;
         // essy b likh skti hon..
