@@ -59,16 +59,16 @@ using namespace std;
 
 
 // Print Table of any number by using while-loop...
-// int main() {
-//     int n;
-//     cout << "Enter the Number: ";
-//     cin >> n;
+int main() {
+    int n;
+    cout << "Enter the Number: ";
+    cin >> n;
 
-//     int i = 1;
-//     while(i <= n) {
-//        cout << n << " * " << i << " = " << n*i <<  endl;
-//        i++;
-//     }
+    int i = 1;
+    while(i <= n) {
+       cout << n << " * " << i << " = " << n*i <<  endl;
+       i++;
+    }
 
-//     return 0;
-// }
+    return 0;
+}
