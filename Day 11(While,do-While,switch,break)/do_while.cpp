@@ -14,5 +14,6 @@ int main(){
     }while(i < n);
     cout << "Sum: " << sum << endl;
     return 0;
+
 }
 
