@@ -1,9 +1,10 @@
 #include <iostream>
 using namespace std;
 
-// Learn Break..
-// And break ka mtlb hai k jahan pr break laga dea hai oss sy next statment ko
-// execute ni krna...and bs whi tk num print kro...
+// Learn continue:
+// continue ka mtlb hai k jahan pr continue ayega oss ko skip kr jao or oss sy nichy
+// wali statemnts ko execute na kro balky direct increement kro or next pr jao lkin jispr continue laga hai
+// osko skip krdo...
 
 int main(){
     int num;
