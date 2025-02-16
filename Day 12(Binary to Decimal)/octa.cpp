@@ -27,7 +27,7 @@ int main(){
         ans+= remainder * i;
 
         // multipy update:
-        i*= 2;
+        i*= 8;
         // essy b likh skti hon..
         // i = i * 2;
     }
