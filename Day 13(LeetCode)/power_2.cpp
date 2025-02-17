@@ -37,5 +37,20 @@ int main(){
     cout << "Enter a number: ";
     cin >> n;
 
+    if(n < 1){
+        cout << "Please enter a valid number: ";
+    }
+    int ans = 1; //because 2^0 -> 1
+    while(ans < n){
+        ans = ans * 2;
+    }
+
+    if(ans == n){
+        cout << n << " is a power of 2";
+    }
+    else{
+        cout << n << " is not a power of 2";
+    }
+    return 0;
 
 }
