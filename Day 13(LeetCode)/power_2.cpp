@@ -27,7 +27,6 @@ int main()
         cout << n;
 };
 
-
 // way 02
 // Iterative method:
 
