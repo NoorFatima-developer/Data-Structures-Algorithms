@@ -3,6 +3,8 @@ using namespace std;
 
         int main() {
             int x;
+            cout << "Enter a number: ";
+            cin >> x;
             int ans=0, rem;
             while (x != 0) {
                 rem = x % 10;
@@ -12,5 +14,5 @@ using namespace std;
                 return 0;
                 ans = ans*10+rem;
             }
-            return ans;
+            cout << "Sum of digits: " << ans << endl;
 };
