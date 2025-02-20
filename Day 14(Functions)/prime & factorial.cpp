@@ -34,7 +34,9 @@ int main(){
     // B is prime or not:
     cout << Prime(b) << endl;
     // B ka factorial:
+    cout << Factorial(b) << endl;
     // B-A is prime or not:
+    cout << Prime(b - a) << endl;
     // B-A ka factorial:
-
+    cout << Factorial(b - a) << endl;
 }
