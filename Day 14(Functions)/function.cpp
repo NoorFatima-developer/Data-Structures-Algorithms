@@ -8,6 +8,11 @@ int sum(int a, int b){              //Function declare...
     return ans;
 }
 
+// Function return nothing, so used void as a return type..but it does not return any value...
+void funct(){
+    cout << "Hello from a function!" << endl;
+}
+
 int main(){
     int num1, num2;
     cout << "Enter the first number: ";
@@ -20,6 +25,6 @@ int main(){
     int result = sum(num1, num2);
 
     cout << "Sum of " << num1 << " and " << num2 << " is: " << result << endl;
-
+    funct();
     return 0;
 }
