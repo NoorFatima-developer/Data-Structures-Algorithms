@@ -32,6 +32,7 @@ int main(){
     // A ka factorial:
     cout << Factorial(a) << endl;
     // B is prime or not:
+    cout << Prime(b) << endl;
     // B ka factorial:
     // B-A is prime or not:
     // B-A ka factorial:
