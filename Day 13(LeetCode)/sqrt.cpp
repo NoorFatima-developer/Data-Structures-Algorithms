@@ -14,7 +14,7 @@
             }
         };
     
-        // way 02 .. use cheader...
+        // way 02 ..
         // class Solution {
         // public:
         //     int mySqrt(int x) {
