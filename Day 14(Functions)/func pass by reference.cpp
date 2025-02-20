@@ -2,6 +2,7 @@
 using namespace std;
 
 // Pass by reference:
+// aghr ye ni b banogi tu error ni dega ku k ye built in func hai swap...
 void swap(int &a, int &b){      //same name but different parameters
     int temp;
     temp = a;
