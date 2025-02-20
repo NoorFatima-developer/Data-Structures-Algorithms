@@ -14,7 +14,7 @@ bool Prime(int n){
 }
 
 // Factorial of a number:
-int Factorial(int n){
+int Factorial(int n=3){
     int ans = 1;
     for(int i = 1; i <= n; i++){
         ans *= i;
@@ -24,9 +24,13 @@ int Factorial(int n){
 
 int main(){
     int a, b;
-    cout << "Enter numbers: ";
-    cin >> a >> b;
+    cout << "Enter first number: " << endl;
+    cin >> a;
+    cout << "Enter second number: " << endl;
+    cin >> b;
 
+    // call func with default parameter:
+    cout << Factorial() << endl;
     // A is prime or not:
     cout << Prime(a) << endl;
     // A ka factorial:
