@@ -14,5 +14,4 @@ int main(){
     cin >> name;
     char ans = convert(name);
     cout << "Converted character: " << ans << endl;
-
 }
