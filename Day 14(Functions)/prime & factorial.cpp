@@ -14,7 +14,7 @@ bool Prime(int n){
 }
 
 // Factorial of a number:
-int factorial(int n){
+int Factorial(int n){
     int ans = 1;
     for(int i = 1; i <= n; i++){
         ans *= i;
@@ -28,7 +28,9 @@ int main(){
     cin >> a >> b;
 
     // A is prime or not:
+    cout << Prime(a) << endl;
     // A ka factorial:
+    cout << Factorial(a) << endl;
     // B is prime or not:
     // B ka factorial:
     // B-A is prime or not:
