@@ -23,7 +23,6 @@ int main(){
 
     // Function call...
     int result = sum(num1, num2);
-
     cout << "Sum of " << num1 << " and " << num2 << " is: " << result << endl;
     funct();
     return 0;
