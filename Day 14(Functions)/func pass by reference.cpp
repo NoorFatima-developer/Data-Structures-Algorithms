@@ -1,10 +1,8 @@
 #include <iostream>
 using namespace std;
 
-
-// Pass by value:
-
-void swap(int a, int b){
+// Pass by reference:
+void swap(int &a, int &b){
     int temp;
     temp = a;
     a = b;
@@ -21,3 +19,4 @@ int main(){
     return 0;
  
 }
+
