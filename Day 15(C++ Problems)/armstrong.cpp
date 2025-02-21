@@ -35,5 +35,4 @@ int main() {
     int digit = countdigit(num);
     // ArmStrong number...
     cout << Armstrong(num, digit) << endl;
-
 }
