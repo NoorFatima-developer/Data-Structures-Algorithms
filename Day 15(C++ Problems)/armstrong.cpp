@@ -1,6 +1,8 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
+// count digits...
 int countdigit(int num) {
     int count = 0;
     while (num!=0) {
@@ -10,13 +12,15 @@ int countdigit(int num) {
     return count;
 }
 
+// armstrong number...
 bool Armstrong(int num, int digit){
     int n = num, rem, ans = 0;
     while(n!=0) {
         rem = n % 10;
         n /= 10;
-        ans += pow(rem, digit);
+        ans = ans + pow(rem, digit);
     }
+    
     if(ans == num)
     return true;
     else
