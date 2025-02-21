@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 
-
-// Mai koi b binary ko decimal number mai convert krskti hon by using this below formula:
+// Mai koi b decimal number ko binary mai convert krskti hon by uring this below formula:
 int main(){
     int num;
     cout << "Enter a number: ";
@@ -11,15 +10,22 @@ int main(){
     int i = 1;
     int ans = 0;
 
-    while(num){
+    while(num > 0){
 
         // remainder update:
-        remainder = num % 10;
+        remainder = num % 2;
+        // Bitwise operator mai remainder formula:
+        // remainder ko hum bitwise sy b krskty hain oss sy b 1 hi ayega..
+        // remainder = num&1;
 
         // quotient update:
-        num/=10;
+        num/=2;
         // isko essy b likh skty hain..
         // num =  num / 2;
+
+        // Bitwise operator mai quotient formula:
+        //  and isko bitwise operator sy b likh skty hain..
+        num =  num >> 1;
       
         // ans update:
         // ans = remainder * i + ans;
@@ -27,9 +33,9 @@ int main(){
         ans+= remainder * i;
 
         // multipy update:
-        i*= 8;
+        i*= 10;
         // essy b likh skti hon..
-        // i = i * 2;
+        // i = i * 10;
     }
     cout << ans << " ";
 }
