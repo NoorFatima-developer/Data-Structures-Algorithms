@@ -11,7 +11,7 @@ int main(){
         cin >> arr[i];
     }
 
-    cout << "\nSum of entered numbers is:\n";
+    cout << "Sum of entered numbers is:\n";
     for(int i = 0; i < 5; i++){
         sum += arr[i];
     }
