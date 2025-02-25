@@ -20,7 +20,7 @@ int main(){
 
     // it will not work:
     // int arr[size];
-    // Dynamically allocate memory:
+    // Dynamically allocate memory:use at compile time..
     int* arr = new int[size];
     cout << "Enter the elements of the array: ";
     for(int i = 0; i < size; i++){
