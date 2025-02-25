@@ -6,17 +6,22 @@ using namespace std;
 int main(){
     int arr [5];
     int sum = 0;
-    int n = 5;
+
     cout << "Enter 5 numbers:\n";
     for(int i = 0; i < 5; i++){
         cin >> arr[i];
     }
+
+    cout << "Enter number of elements";
+    int n;
+    cin >> n;
 
     cout << "Sum of entered numbers is:\n";
     for(int i = 0; i < 5; i++){
         sum += arr[i];
     }
 
+    float average = (float)sum / n;
     // Displaying the average:
-    cout << "Average: " << (float)sum / n << endl;
+    cout << "Average: " << average << endl;
 }
