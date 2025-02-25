@@ -21,7 +21,6 @@ int main(){
     // it will not work:
     // int arr[size];
     // Dynamically allocate memory:
-
     int* arr = new int[size];
     cout << "Enter the elements of the array: ";
     for(int i = 0; i < size; i++){
@@ -47,4 +46,8 @@ int main(){
     }else {
         cout << "Element found at index: " << index;
     }
+
+    //Free allocated memory to prevent memory leaks
+    delete[] arr;  
+    return 0;
 }
