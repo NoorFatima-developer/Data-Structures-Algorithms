@@ -11,6 +11,7 @@ int main(){
         if(arr[i] > ans){
             ans = arr[i];
         }
-    cout << "Maximum element is: " << ans << endl;
     }
+    cout << "Maximum element is: " << ans << endl;
+    return 0;
 }
