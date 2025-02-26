@@ -38,11 +38,11 @@ int main(){
         else if(arr[i] > secondLargest){
             secondLargest = arr[i]; 
         }
-
-        // print secondlargest..
-        cout<<"Second largest element: "<<secondLargest<<endl;
     }
     
+   // print secondlargest..
+   cout<<"Second largest element: "<<secondLargest<<endl;
+   
     // delete dynamically allocated memory:
     delete[] arr;
     return 0;
