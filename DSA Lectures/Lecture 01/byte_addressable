@@ -1,0 +1,8 @@
+Byte-addressable memory ka matlab hai har ek byte ka ek unique address hota hai.
+
+
+Agar ek system byte-addressable hai aur uska memory address 0x1000 hai, toh:
+
+0x1000 pe ek byte (8 bits) store hogi.
+0x1001 pe agli byte store hogi.
+0x1002 pe agli byte store hogi.

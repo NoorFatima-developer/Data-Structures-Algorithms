@@ -31,6 +31,7 @@ int main(){
             thirdsmallest = arr[i];
         }
     }
+    // free allocated dynamic memory to avoid memory leaks...
     delete[] arr;
     cout << "The third smallest element is: " << thirdsmallest << endl;
 }
