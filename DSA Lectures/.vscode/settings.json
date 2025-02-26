@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "chart_types": "cpp",
+        "ostream": "cpp"
+    }
+}
