@@ -2,7 +2,9 @@
 
 // aghr mai pehly largest find krleti o and then second largets krti o it would be easy to solve for me..
 
+// way 01...
 #include<iostream>
+#include<vector>
 using namespace std;
 
 int main(){
@@ -48,3 +50,38 @@ int main(){
     return 0;
  
 }
+
+
+// way 02...
+
+//{ Driver Code Starts
+
+// } Driver Code Ends
+
+// User function template for C++
+class Solution {
+  public:
+    // Function returns the second
+    // largest elements
+    int getSecondLargest(vector<int> &arr) {
+        // Code Here
+        int n = arr.size();
+        int ans = -1;
+        for(int i = 0; i < n; i++){
+            if(arr[i] > ans){
+                ans = arr[i];
+            }
+        }
+        
+        int second = -1;
+        for(int i = 0; i < n; i++){
+            if(arr[i]!=ans && arr[i] > second){
+                second = max(second, arr[i]);
+            }
+        }
+        
+        return second;
+    }
+};
+
+
