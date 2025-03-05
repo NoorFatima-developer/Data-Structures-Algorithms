@@ -24,4 +24,9 @@ int main(){
                 break;
             }
     }
+
+    cout << "Sorted array: ";
+    for (int i = 0; i < n; i++) {
+        cout << arr[i] << " ";
+    }
 }
