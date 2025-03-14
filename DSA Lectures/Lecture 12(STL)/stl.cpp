@@ -72,6 +72,39 @@ int main()
 // aghr array ka 0 index print krwana hai tu i can use these two ways:
 // ya array k end waly index ko print krwana o tu i can use this:
 
+// vector<int>arr;
+// arr.push_back(2);
+// arr.push_back(42);
+// arr.push_back(25);
+// arr.push_back(8);
+// arr.push_back(9);
+
+// // print 1st element of an array:
+// cout << arr[0]<<endl;
+// cout << arr.front()<<endl;
+// // print last element of an array:
+// cout << arr[arr.size()-1]<<endl;
+// cout << arr.back()<<endl;
+
+// // and aghr m apni puri arr ko new kisi variable mai copy krna chahti o tu i will do this:
+
+// vector<int>a;
+// a = arr;
+// cout << a.size();
+
+// for(auto it = arr.begin();it!=arr.end();it++)
+// {
+//     cout << *it << " ";
+
+// }
+
+// cout << endl;
+// for(auto i:arr)
+// cout << i << " ";
+
+
+// sort answer in increasing order:
+
 vector<int>arr;
 arr.push_back(2);
 arr.push_back(42);
@@ -79,17 +112,38 @@ arr.push_back(25);
 arr.push_back(8);
 arr.push_back(9);
 
-// print 1st element of an array:
-cout << arr[0]<<endl;
-cout << arr.front()<<endl;
-// print last element of an array:
-cout << arr[arr.size()-1]<<endl;
-cout << arr.back()<<endl;
+// sort arr in increasing order:
+// sort(arr.begin(), arr.end());
+// for(int i = 0; i < arr.size(); i++)
+// cout << arr[i] << " ";
 
-// and aghr m apni puri arr ko new kisi variable mai copy krna chahti o tu i will do this:
+// sort arr in decreasing order: way 01...
+// sort(arr.begin(), arr.end(), greater<int>());
+// for(int i = 0; i < arr.size(); i++)
+// cout << arr[i] << " ";
 
-vector<int>a;
-a = arr;
-cout << a.size();
+// sort arr in decreasing order: way 02...
+// sort(arr.rbegin(), arr.rend());
+// for(int i = 0; i < arr.size(); i++)
+// cout << arr[i] << " ";
+
+
+// search any number in binary search:
+// cout << binary_search(arr.begin(), arr.end(), 54) << endl;
+
+// ab ye mjhy 54 ka index find krk dedyga..using find method...
+// cout << find(arr.begin(), arr.end(), 54) - arr.begin() << endl;
+
+// find count...
+// cout << count(arr.begin(), arr.end(), 5) << endl;
+
+// find max or min:
+// cout << max_element(arr.begin(), arr.end()) << endl;
+
+// essy hi mai lower bound or upper bound b find krskti hon...
 
 }
+
+
+
+
