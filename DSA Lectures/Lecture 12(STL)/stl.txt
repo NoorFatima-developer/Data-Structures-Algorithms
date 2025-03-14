@@ -6,10 +6,9 @@ v.at();
 v.size()       //size of array
 v.capacity()   //array k andr kitny diby hain wo...
 
-Iterator in a vector:
+------------Iterator in a vector:-----------
 v.begin();      //array m first waly ko point kryga..
 v.end();        //array mai end waly ko ni balky end waly sy bhr point kryga..
-
 
 v.rbegin()     //array mai end waly element ko e point kr rha hoga...
 v.rend()       //iska mtlb hai k array mai first index sy pehly jo space osko point kr rha hoga..
@@ -19,5 +18,8 @@ v.rend()       //iska mtlb hai k array mai first index sy pehly jo space osko po
 sorting algorithms use kron like selection sort, bubble sort or insertion sort etc..
 tu osklye i can use vector to sort and array;
 
+==Sorting for Increasing order===
 sort(v.begin(), v.end());
+==Sorting for Decreasing order===
+sort(v.begin(), v.end(), v.greater<int>());
 
