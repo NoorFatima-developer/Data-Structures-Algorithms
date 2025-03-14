@@ -1,0 +1,23 @@
+v.front();      //fist element array ka
+v.back();       //last element array ka
+v.empty();      //empty means puri array ko empty krdo
+v.at();
+
+v.size()       //size of array
+v.capacity()   //array k andr kitny diby hain wo...
+
+Iterator in a vector:
+v.begin();      //array m first waly ko point kryga..
+v.end();        //array mai end waly ko ni balky end waly sy bhr point kryga..
+
+
+v.rbegin()     //array mai end waly element ko e point kr rha hoga...
+v.rend()       //iska mtlb hai k array mai first index sy pehly jo space osko point kr rha hoga..
+
+
+//And aghr mai sort krna chahti o using vector and I don't want k mai
+sorting algorithms use kron like selection sort, bubble sort or insertion sort etc..
+tu osklye i can use vector to sort and array;
+
+sort(v.begin(), v.end());
+
