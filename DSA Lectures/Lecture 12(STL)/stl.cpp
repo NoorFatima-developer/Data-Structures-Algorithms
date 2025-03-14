@@ -69,3 +69,27 @@ int main()
 // }
 
 
+// aghr array ka 0 index print krwana hai tu i can use these two ways:
+// ya array k end waly index ko print krwana o tu i can use this:
+
+vector<int>arr;
+arr.push_back(2);
+arr.push_back(42);
+arr.push_back(25);
+arr.push_back(8);
+arr.push_back(9);
+
+// print 1st element of an array:
+cout << arr[0]<<endl;
+cout << arr.front()<<endl;
+// print last element of an array:
+cout << arr[arr.size()-1]<<endl;
+cout << arr.back()<<endl;
+
+// and aghr m apni puri arr ko new kisi variable mai copy krna chahti o tu i will do this:
+
+vector<int>a;
+a = arr;
+cout << a.size();
+
+}
