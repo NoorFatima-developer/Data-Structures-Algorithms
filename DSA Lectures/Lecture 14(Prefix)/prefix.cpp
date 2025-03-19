@@ -5,7 +5,7 @@ using namespace std;
 
 bool divide(vector<int>arr)
 {
-    int max = INT_MIN, prefix = 0, total_sum = 0, n = arr.size();
+    int prefix = 0, total_sum = 0, n = arr.size();
     // Total sum...
     for(int i = 0; i < n; i++)
     {
