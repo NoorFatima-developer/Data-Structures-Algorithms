@@ -1,0 +1,6 @@
+Solved problems of 2 pointers on leetcode and geekgorgeeks...
+
+linear search sy b solve krskty thy
+binary sy
+but two pointer optimized approach thie..
+or wesy b jahan pr hmry ps target value given o wahan hum two pointers use krskty hain...
