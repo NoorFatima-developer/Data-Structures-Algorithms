@@ -1,3 +1,5 @@
+// divide array into two sub array with equal sum
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -15,7 +17,7 @@ bool divide(vector<int>arr)
     for(int i = 0; i < n - 1; i++)
     {
         // left_part sum using prefix...
-        prefix += arr[i];
+        prefix += arr[i];                                   
         // right_part sum..
         // int next_sum = total_sum - prefix;
         // if(total_sum - prefix == prefix)
