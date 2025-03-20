@@ -55,10 +55,8 @@ int BinarySearch(int arr[], int n, int key){
         else
         end = mid + 1;
     }
-
     return -1;
 }
-
 
 int main(){
     int arr[1000];
