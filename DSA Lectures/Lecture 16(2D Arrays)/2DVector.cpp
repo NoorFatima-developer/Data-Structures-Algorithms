@@ -5,11 +5,21 @@ using namespace std;
 
 // create 2D vector...
 int main() {
-    // col 4 and hr 1 ko initialize krdo 1 sy...
-    vector<vector<int>>matrix(3, vector<int>(4,1));
 
-    for(int i = 0; i < 3; i++)
-    for(int j = 0; j < 4; j++)
+    // user sy input leny klye..
+    int n, m;
+    cin >> n >> m;
+    // col 4 and hr 1 ko initialize krdo 1 sy...
+    vector<vector<int>>matrix(n, vector<int>(m,1));
+
+    // cin..
+    for(int i = 0; i < n; i++)
+    for(int j = 0; j < m; j++)
+    cin >> matrix[i][j];
+
+    // cout..
+    for(int i = 0; i < n; i++)
+    for(int j = 0; j < m; j++)
     cout << matrix[i][j] << " ";
     cout << endl;
 
