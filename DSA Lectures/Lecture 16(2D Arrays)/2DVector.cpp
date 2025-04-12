@@ -11,4 +11,10 @@ int main() {
     for(int i = 0; i < 3; i++)
     for(int j = 0; j < 4; j++)
     cout << matrix[i][j] << " ";
+    cout << endl;
+
+    // Aghr mjy rows or cols ni dien hoe tu i will use this to find..
+    cout << "Rows = " << matrix.size();
+    cout << endl;
+    cout << "Cols = " << matrix[0].size();
 }
