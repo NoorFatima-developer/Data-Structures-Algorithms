@@ -1,6 +1,15 @@
 #include <iostream>
 using namespace std;
 
+void printcol(int arr[][4], int row, int col)
+{
+    //column wise..
+    for(int c = 0; c < col; c++)
+    for(int r = 0; r < row; r++)
+    cout << arr[r][c] << " ";
+
+}
+
 int main() {
     
     //create 2d array
