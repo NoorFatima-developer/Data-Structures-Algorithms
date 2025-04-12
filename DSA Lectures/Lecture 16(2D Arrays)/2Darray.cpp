@@ -10,6 +10,24 @@ void printcol(int arr[][4], int row, int col)
 
 }
 
+void printrowmax(int arr[][4], int row, int col)
+{
+    int sum = INT_MIN, index = -1;
+
+    for(int i = 0; i < row; i++)
+    {
+        int total = 0;
+        for(int j = 0; j < col; j++)
+        total = total + arr[i][j];
+        if(sum < total){
+            sum = total;
+            index = i;
+        }
+    }
+
+    cout << index << " ";
+}
+
 int main() {
     
     //create 2d array
@@ -28,7 +46,6 @@ int main() {
 
     // 02---Find an element in an array..
     // int x = 7;
-
     // for(int row = 0; row < 3; row++)
     // for(int col = 0; col < 4; col++)
     // {
@@ -40,15 +57,16 @@ int main() {
     // cout << "No";
 
     // 03---Add 2 matrix:
+    // for(int row = 0; row < 3; row++)
+    // for(int col = 0; col < 4; col++)
+    // {
+    //     ans[row][col] = arr1[row][col] + arr2[row][col];
+    // }
 
-    for(int row = 0; row < 3; row++)
-    for(int col = 0; col < 4; col++)
-    {
-        ans[row][col] = arr1[row][col] + arr2[row][col];
-    }
+    // for(int row = 0; row < 3; row++)
+    // for(int col = 0; col < 4; col++)
+    // cout << ans[row][col] << " ";
 
-    for(int row = 0; row < 3; row++)
-    for(int col = 0; col < 4; col++)
-    cout << ans[row][col] << " ";
-
+    // 04---Print row index with maximum sum...
+    printrowmax(arr1, 3, 4);
 }
