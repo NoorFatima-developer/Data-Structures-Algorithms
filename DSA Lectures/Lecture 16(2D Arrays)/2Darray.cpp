@@ -28,6 +28,26 @@ void printrowmax(int arr[][4], int row, int col)
     cout << index << " ";
 }
 
+void printsumdiagonal(int matrix[][3], int row, int col)
+{
+    int first = 0;
+    int second = 0;
+
+    // first diagonal sum...
+    for(int i = 0; i < row; i++){
+        first = first + matrix[i][i];
+    }
+
+    // second diagonal...
+    for(int i = 0; i < row; i++)
+    {
+        second = second + matrix[i][col - 1 - i];
+    }
+
+    cout << first << " " << second << " ";
+
+}
+
 int main() {
     
     //create 2d array
@@ -68,5 +88,11 @@ int main() {
     // cout << ans[row][col] << " ";
 
     // 04---Print row index with maximum sum...
-    printrowmax(arr1, 3, 4);
+    // printrowmax(arr1, 3, 4);
+
+    // 05---Print Sum of diagonal..
+    // lkin ospr implement jisk row or col same hon...
+
+    int matrix[3][3] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+    printsumdiagonal(matrix, 3, 3);
 }
