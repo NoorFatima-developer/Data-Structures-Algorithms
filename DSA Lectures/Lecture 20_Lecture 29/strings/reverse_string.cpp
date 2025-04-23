@@ -16,4 +16,15 @@ int main() {
     }
 
     cout << s;
+
+    // print size manually instead of use s.size()
+
+    int size = 0;
+    while(s[size]!='\0')
+    {
+        size++;
+    }
+
+    cout << endl;
+    cout << size << " ";
 }
